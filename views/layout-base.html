@@ -16,17 +16,13 @@
     <base href="/" />
     <title ng-bind="(route.vars.title && (siteTitle + ': ' + route.vars.title)) || siteTitle"></title>
     <link href='https://fonts.googleapis.com/css?family=Droid+Sans:400,700|Droid+Sans+Mono' rel='stylesheet' type='text/css'>
-    {% if productionMode %}
-      <link href="/css/bundle.min.css" rel="stylesheet" type="text/css" />
+    {% if productionMode || minify %}
+      <link href="/bower-components/bedrock-angular/css/bundle.min.css" rel="stylesheet" type="text/css" />
     {% else %}
-      {% if minify %}
-        <link href="/css/bundle.min.css" rel="stylesheet" type="text/css" />
-      {% else %}
-        {% block css %}
-        <link href="/css/app.css" rel="stylesheet" type="text/css" />
-        <link href="/css/custom.css" rel="stylesheet" type="text/css" />
-        {% endblock %}
-      {% endif %}
+      {% block css %}
+      <link href="/bower-components/bedrock-angular/css/app.css" rel="stylesheet" type="text/css" />
+      <link href="/bower-components/bedrock-angular/css/custom.css" rel="stylesheet" type="text/css" />
+      {% endblock %}
     {% endif %}
     <!--[if IE]>
     <link href="/css/ie.css" rel="stylesheet" type="text/css" />
@@ -37,24 +33,16 @@
     {% block beforeMain %}{% endblock %}
 
     {% if pageLayout != "error" %}
-      {% if productionMode %}
-        <script src="/app/main.min.js"></script>
+      {% if productionMode || minify %}
+        <script src="/bower-components/bedrock-angular/app.min.js"></script>
       {% else %}
-        {% if minify %}
-          <script src="/app/main.min.js"></script>
-        {% else %}
-          <script data-main="/app/main.js" src="/bower-components/requirejs/require.js"></script>
-        {% endif %}
+        <script data-main="/requirejs/main.js" src="/bower-components/requirejs/require.js"></script>
       {% endif %}
     {% endif %}
   </head>
 
   <body>
-    {% if pageLayout == "error" %}
-      {% include "navbar-plain.html" %}
-    {% else %}
-      {% include "navbar.html" %}
-    {% endif %}
+    {% include "navbar.html" %}
 
     {% if userAgent.obsolete %}
     <div class="alert alert-danger">

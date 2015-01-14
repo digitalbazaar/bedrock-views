@@ -1,0 +1,13 @@
+{
+  "name": "bedrock-views",
+  "ignore": [
+    "lib",
+    "node_modules",
+    "bower_components",
+    "package.json",
+    "tests"
+  ],
+  "dependencies": {
+    "bedrock-angular": "~0.0.1"
+  }
+}
