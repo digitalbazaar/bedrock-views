@@ -1,0 +1,7 @@
+{
+  "name": "bedrock-views",
+  "main": "./app.js",
+  "ignore": [],
+  "dependencies": {
+  }
+}
