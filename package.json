@@ -28,8 +28,7 @@
     "ua-parser": "~0.3.0"
   },
   "peerDependencies": {
-    "bedrock": "~0.3.0",
-    "bedrock-validation": "~0.1.0"
+    "bedrock": "~0.3.0"
   },
   "directories": {
     "lib": "./lib"
