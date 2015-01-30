@@ -2,7 +2,7 @@
   "name": "bedrock-views",
   "version": "0.0.1",
   "description": "Bedrock website views module",
-  "main": "index.js",
+  "main": "./lib/views",
   "scripts": {
     "test": "node test.js"
   },
@@ -25,6 +25,7 @@
   "dependencies": {
     "async": "~0.9.0",
     "less": "~2.2.0",
+    "ng-annotate": "~0.15.4",
     "swig": "~1.3.2",
     "ua-parser": "~0.3.0"
   },
@@ -34,6 +35,5 @@
   },
   "directories": {
     "lib": "./lib"
-  },
-  "main": "./lib/views"
+  }
 }
