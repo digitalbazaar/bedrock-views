@@ -34,7 +34,7 @@
 
     {% if pageLayout != "error" %}
       {% if productionMode || minify %}
-        <script src="/bower-components/bedrock-angular/app.min.js"></script>
+        <script src="/requirejs/main.min.js"></script>
       {% else %}
         <script data-main="/requirejs/main.js" src="/bower-components/requirejs/require.js"></script>
       {% endif %}
