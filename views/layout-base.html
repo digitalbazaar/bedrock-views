@@ -17,10 +17,10 @@
     <title ng-bind="(route.vars.title && (siteTitle + ': ' + route.vars.title)) || siteTitle"></title>
     <link href='https://fonts.googleapis.com/css?family=Droid+Sans:400,700|Droid+Sans+Mono' rel='stylesheet' type='text/css'>
     {% if productionMode || minify %}
-      <link href="/bower-components/bedrock-angular/css/bundle.min.css" rel="stylesheet" type="text/css" />
+      <link href="/css/bedrock-views.min.css" rel="stylesheet" type="text/css" />
     {% else %}
       {% block css %}
-      <link href="/bower-components/bedrock-angular/css/app.css" rel="stylesheet" type="text/css" />
+      <link href="/css/bedrock-views.css" rel="stylesheet" type="text/css" />
       <link href="/bower-components/bedrock-angular/css/custom.css" rel="stylesheet" type="text/css" />
       {% endblock %}
     {% endif %}
