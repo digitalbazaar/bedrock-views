@@ -9,3 +9,6 @@ coverage
 node_modules
 npm-debug.log
 reports
+bedrock-views.css
+bedrock-views.min.css
+bedrock-angular-templates.js
