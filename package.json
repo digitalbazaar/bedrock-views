@@ -36,7 +36,8 @@
   },
   "peerDependencies": {
     "bedrock": "~0.3.0",
-    "bedrock-requirejs": "~0.0.1"
+    "bedrock-requirejs": "~0.0.1",
+    "bedrock-server": "~0.0.1"
   },
   "directories": {
     "lib": "./lib"
