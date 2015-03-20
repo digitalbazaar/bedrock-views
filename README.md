@@ -11,7 +11,7 @@ client-side resources.
 * Client-side modules and JavaScript optimization via [bedrock-requirejs][]
 * HTML and CSS framework via [bootstrap][] v3
 * [Less][] compilation support via [less][]
-* CSS optimization via [clean-css][[]
+* CSS optimization via [clean-css][]
 * HTML optimization via [html-minifier][]
 * [AngularJS][] template optimization and [ng-annotate][] support
 
