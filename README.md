@@ -1,14 +1,19 @@
 # bedrock-views
 
-A [bedrock][] module that provides server-rendered HTML views and that can
-be easily coupled with [AngularJS][] via [bedrock-angular][]. It also
-provides tools for compiling [Less][] and optimizing JavaScript, CSS, and
-[AngularJS][] templates.
+A [bedrock][] module that combines a number of popular frontend technologies
+to provide a modern, flexible, and extensible Web-based user interface. It
+is coupled with the [bower][] module, [bedrock-angular][], which provides
+client-side resources.
 
-**bedrock-views** uses the [Swig][] templating engine to provide its
-server-rendered views and [bedrock-requirejs][] to serve any client-side
-modules and to optimize any client-side JavaScript. **bedrock-views**'s
-JavaScript optimization has built-in support for [ng-annotate][].
+**bedrock-views** has the following properties/features:
+* Server-rendered views via the [Swig][] templating engine
+* Client-side [AngularJS][] application via [bedrock-angular][]
+* Client-side modules and JavaScript optimization via [bedrock-requirejs][]
+* HTML and CSS framework via [bootstrap][] v3
+* [Less][] compilation support via [less][]
+* CSS optimization via [clean-css][[]
+* HTML optimization via [html-minifier][]
+* [AngularJS][] template optimization and [ng-annotate][] support
 
 ## Quick Examples
 
@@ -40,6 +45,10 @@ TODO: command line usage of optimize
 TODO: use 'bedrock-views.vars.get' event
 -->
 
+## Setup
+
+1. bower install bedrock-angular
+
 ## Configuration
 
 **bedrock-views** uses [bedrock][]'s configuration to expose its own
@@ -66,6 +75,7 @@ TODO: description of `bedrock-views.add` event (possibly rename as well)
 [bedrock-express]: https://github.com/digitalbazaar/bedrock-express
 [bedrock-requirejs]: https://github.com/digitalbazaar/bedrock-requirejs
 [bedrock-views]: https://github.com/digitalbazaar/bedrock-views
+[bootstrap]: http://getbootstrap.com/
 [bower]: http://bower.io/
 [clean-css]: https://github.com/jakubpawlowicz/clean-css
 [html-minifier]: https://github.com/kangax/html-minifier
