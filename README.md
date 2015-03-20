@@ -37,6 +37,7 @@ bedrock.start();
 <!--
 TODO: command line usage of compile-less
 TODO: command line usage of optimize
+TODO: use 'bedrock-views.vars.get' event
 -->
 
 ## Configuration
@@ -44,12 +45,21 @@ TODO: command line usage of optimize
 **bedrock-views** uses [bedrock][]'s configuration to expose its own
 options and to expose [less][], [clean-css][], and [html-minifier][] options.
 
+<!--
+TODO: description of `bedrock.config.views.vars`
+TODO: description of how to override angular templates
+-->
+
 More documentation about their usage can be found in
 [config.js](https://github.com/digitalbazaar/bedrock-views/blob/master/lib/config.js).
 
 ## How It Works
 
-<!-- TODO -->
+<!--
+TODO: general
+TODO: description of `bedrock-views.vars.get` event
+TODO: description of `bedrock-views.add` event (possibly rename as well)
+-->
 
 [bedrock]: https://github.com/digitalbazaar/bedrock
 [bedrock-angular]: https://github.com/digitalbazaar/bedrock-angular
