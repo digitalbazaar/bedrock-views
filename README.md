@@ -59,8 +59,7 @@ TODO: description of `bedrock.config.views.vars`
 TODO: description of how to override angular templates
 -->
 
-More documentation about their usage can be found in
-[config.js](https://github.com/digitalbazaar/bedrock-views/blob/master/lib/config.js).
+More documentation about their usage can be found in [config.js](./lib/config.js).
 
 ## How It Works
 
