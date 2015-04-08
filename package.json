@@ -1,6 +1,6 @@
 {
   "name": "bedrock-views",
-  "version": "0.1.2-dev",
+  "version": "1.0.0",
   "description": "Bedrock website views module",
   "main": "./lib/views",
   "scripts": {
@@ -35,9 +35,9 @@
     "underscore": "~1.7.0"
   },
   "peerDependencies": {
-    "bedrock": "~0.3.1",
-    "bedrock-requirejs": "~0.1.0",
-    "bedrock-server": "~0.1.0"
+    "bedrock": "^1.0.0",
+    "bedrock-requirejs": "^1.0.0",
+    "bedrock-server": "^1.0.0"
   },
   "directories": {
     "lib": "./lib"
