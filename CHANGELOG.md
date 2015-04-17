@@ -2,6 +2,9 @@
 
 ## [Unreleased]
 
+### Fixed
+- Fix sending 503 status.
+
 ## [1.0.0] - 2015-04-08
 
 ### Added
