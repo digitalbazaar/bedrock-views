@@ -2,6 +2,8 @@
 
 ## [Unreleased]
 
+## [1.0.1] - 2015-05-07
+
 ### Fixed
 - Fix sending 503 status.
 
@@ -34,6 +36,7 @@
 
 - See git history for changes.
 
-[Unreleased]: https://github.com/digitalbazaar/bedrock-views/compare/1.0.0...HEAD
+[Unreleased]: https://github.com/digitalbazaar/bedrock-views/compare/1.0.1...HEAD
+[1.0.1]: https://github.com/digitalbazaar/bedrock-views/compare/1.0.0...1.0.1
 [1.0.0]: https://github.com/digitalbazaar/bedrock-views/compare/0.1.1...1.0.0
 [0.1.1]: https://github.com/digitalbazaar/bedrock-views/compare/0.1.0...0.1.1
