@@ -2,6 +2,17 @@
 
 ## [Unreleased]
 
+## [1.0.4] - 2015-05-07
+
+### Changes
+- Remove custom forge paths.
+
+## [1.0.3] - 2015-05-25
+
+### Changes
+- Remove override of err.details.httpStatusCode.
+- Rework unhandled exceptions. Add 404 and 503 support.
+
 ## [1.0.1] - 2015-05-07
 
 ### Fixed
@@ -36,7 +47,9 @@
 
 - See git history for changes.
 
-[Unreleased]: https://github.com/digitalbazaar/bedrock-views/compare/1.0.1...HEAD
+[Unreleased]: https://github.com/digitalbazaar/bedrock-views/compare/1.0.4...HEAD
+[1.0.4]: https://github.com/digitalbazaar/bedrock-views/compare/1.0.3...1.0.4
+[1.0.3]: https://github.com/digitalbazaar/bedrock-views/compare/1.0.1...1.0.3
 [1.0.1]: https://github.com/digitalbazaar/bedrock-views/compare/1.0.0...1.0.1
 [1.0.0]: https://github.com/digitalbazaar/bedrock-views/compare/0.1.1...1.0.0
 [0.1.1]: https://github.com/digitalbazaar/bedrock-views/compare/0.1.0...0.1.1
