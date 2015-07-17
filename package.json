@@ -1,6 +1,6 @@
 {
   "name": "bedrock-views",
-  "version": "1.0.4",
+  "version": "1.0.5-dev",
   "description": "Bedrock website views module",
   "main": "./lib/views",
   "scripts": {
