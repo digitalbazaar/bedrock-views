@@ -2,6 +2,17 @@
 
 ## [Unreleased]
 
+## [1.1.0] - 2015-08-24
+
+### Changes
+- Display 404 errors via angular. This change allows angular routes to be
+  added without requiring any express route(s) for completeness. Previously,
+  when adding an angular route, if an express route was not also added and the
+  user reloaded a page that was managed by angular's router, the page would
+  display a confusing 404. Now, when the client has requested HTML, the page
+  will only display a 404 if there is both no express route *and* no angular
+  route for that URL.
+
 ## [1.0.4] - 2015-05-07
 
 ### Changes
@@ -47,7 +58,8 @@
 
 - See git history for changes.
 
-[Unreleased]: https://github.com/digitalbazaar/bedrock-views/compare/1.0.4...HEAD
+[Unreleased]: https://github.com/digitalbazaar/bedrock-views/compare/1.1.0...HEAD
+[1.1.0]: https://github.com/digitalbazaar/bedrock-views/compare/1.0.4...1.1.0
 [1.0.4]: https://github.com/digitalbazaar/bedrock-views/compare/1.0.3...1.0.4
 [1.0.3]: https://github.com/digitalbazaar/bedrock-views/compare/1.0.1...1.0.3
 [1.0.1]: https://github.com/digitalbazaar/bedrock-views/compare/1.0.0...1.0.1
