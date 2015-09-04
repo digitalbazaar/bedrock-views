@@ -2,6 +2,12 @@
 
 ## [Unreleased]
 
+## [1.1.1] - 2015-09-04
+
+### Changes
+- Explicitly list and update `bedrock-express` dependency. Use `bedrock-express`
+  error handler middleware.
+
 ## [1.1.0] - 2015-08-24
 
 ### Changes
@@ -58,7 +64,8 @@
 
 - See git history for changes.
 
-[Unreleased]: https://github.com/digitalbazaar/bedrock-views/compare/1.1.0...HEAD
+[Unreleased]: https://github.com/digitalbazaar/bedrock-views/compare/1.1.1...HEAD
+[1.1.1]: https://github.com/digitalbazaar/bedrock-views/compare/1.1.0...1.1.1
 [1.1.0]: https://github.com/digitalbazaar/bedrock-views/compare/1.0.4...1.1.0
 [1.0.4]: https://github.com/digitalbazaar/bedrock-views/compare/1.0.3...1.0.4
 [1.0.3]: https://github.com/digitalbazaar/bedrock-views/compare/1.0.1...1.0.3
