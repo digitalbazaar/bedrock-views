@@ -36,6 +36,7 @@
   },
   "peerDependencies": {
     "bedrock": "^1.0.0",
+    "bedrock-express": "^1.4.0",
     "bedrock-requirejs": "^1.0.0",
     "bedrock-server": "^1.0.0"
   },
