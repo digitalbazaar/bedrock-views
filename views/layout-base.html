@@ -42,7 +42,9 @@
     {% endif %}
   </head>
 
-  <body>
+  {% raw %}
+  <body ng-show="!route.changing">
+  {% endraw %}
     {% include "navbar.html" %}
 
     {% if userAgent.obsolete %}
