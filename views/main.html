@@ -7,7 +7,7 @@
 <div ng-view></div>
 
 {% raw %}
-<div ng-if="!route.changing && app.config.data.noRoute">
+<div ng-if="!route.changing && !route.on">
   <h2>Page Not Found</h2>
 
   <div>
