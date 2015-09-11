@@ -2,6 +2,11 @@
 
 ## [Unreleased]
 
+## [1.1.2] - 2015-09-11
+
+### Changes
+- Use `bedrock-angular` 1.2.1.
+
 ## [1.1.1] - 2015-09-04
 
 ### Changes
