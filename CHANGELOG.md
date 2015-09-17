@@ -2,6 +2,12 @@
 
 ## [Unreleased]
 
+## [1.2.0] - 2015-09-17
+
+### Changes
+- Make default root landing page use angular routing.
+- Use `bedrock-angular` 1.3.0.
+
 ## [1.1.2] - 2015-09-11
 
 ### Changes
@@ -69,7 +75,8 @@
 
 - See git history for changes.
 
-[Unreleased]: https://github.com/digitalbazaar/bedrock-views/compare/1.1.1...HEAD
+[Unreleased]: https://github.com/digitalbazaar/bedrock-views/compare/1.2.0...HEAD
+[1.2.0]: https://github.com/digitalbazaar/bedrock-views/compare/1.1.1...1.2.0
 [1.1.1]: https://github.com/digitalbazaar/bedrock-views/compare/1.1.0...1.1.1
 [1.1.0]: https://github.com/digitalbazaar/bedrock-views/compare/1.0.4...1.1.0
 [1.0.4]: https://github.com/digitalbazaar/bedrock-views/compare/1.0.3...1.0.4
