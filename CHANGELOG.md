@@ -2,6 +2,12 @@
 
 ## [Unreleased]
 
+## [1.3.0] - 2015-10-14
+
+### Added
+- A configurable context map for client-side json-ld.
+- Use `bedrock-angular` 1.4.0.
+
 ## [1.2.0] - 2015-09-17
 
 ### Changes
@@ -75,7 +81,8 @@
 
 - See git history for changes.
 
-[Unreleased]: https://github.com/digitalbazaar/bedrock-views/compare/1.2.0...HEAD
+[Unreleased]: https://github.com/digitalbazaar/bedrock-views/compare/1.3.0...HEAD
+[1.3.0]: https://github.com/digitalbazaar/bedrock-views/compare/1.2.0...1.3.0
 [1.2.0]: https://github.com/digitalbazaar/bedrock-views/compare/1.1.1...1.2.0
 [1.1.1]: https://github.com/digitalbazaar/bedrock-views/compare/1.1.0...1.1.1
 [1.1.0]: https://github.com/digitalbazaar/bedrock-views/compare/1.0.4...1.1.0
