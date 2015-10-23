@@ -73,7 +73,7 @@
 
       {# Avoid extra whitespace between elements for proper inline layout #}
 
-      {% if pageLayout == "normal" %}
+      {% if pageLayout == "normal" && footer.show %}
       <hr/>
       {% endif %}
       {% if footer.show %}
