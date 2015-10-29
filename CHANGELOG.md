@@ -2,6 +2,11 @@
 
 ## [Unreleased]
 
+## [1.5.0] - 2015-10-29
+
+### Added
+- Use `bedrock-angular-navbar`.
+
 ## [1.4.2] - 2015-10-23
 
 ### Fixed
@@ -101,7 +106,8 @@
 
 - See git history for changes.
 
-[Unreleased]: https://github.com/digitalbazaar/bedrock-views/compare/1.4.2...HEAD
+[Unreleased]: https://github.com/digitalbazaar/bedrock-views/compare/1.5.0...HEAD
+[1.5.0]: https://github.com/digitalbazaar/bedrock-views/compare/1.4.2...1.5.0
 [1.4.2]: https://github.com/digitalbazaar/bedrock-views/compare/1.4.1...1.4.2
 [1.4.1]: https://github.com/digitalbazaar/bedrock-views/compare/1.4.0...1.4.1
 [1.4.0]: https://github.com/digitalbazaar/bedrock-views/compare/1.3.1...1.4.0
