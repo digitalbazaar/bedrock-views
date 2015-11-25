@@ -2,6 +2,11 @@
 
 ## [Unreleased]
 
+## [1.5.1] - 2015-11-25
+
+### Fixed
+- Made docs link in footer configurable.
+
 ## [1.5.0] - 2015-10-29
 
 ### Added
@@ -106,7 +111,8 @@
 
 - See git history for changes.
 
-[Unreleased]: https://github.com/digitalbazaar/bedrock-views/compare/1.5.0...HEAD
+[Unreleased]: https://github.com/digitalbazaar/bedrock-views/compare/1.5.1...HEAD
+[1.5.1]: https://github.com/digitalbazaar/bedrock-views/compare/1.5.0...1.5.1
 [1.5.0]: https://github.com/digitalbazaar/bedrock-views/compare/1.4.2...1.5.0
 [1.4.2]: https://github.com/digitalbazaar/bedrock-views/compare/1.4.1...1.4.2
 [1.4.1]: https://github.com/digitalbazaar/bedrock-views/compare/1.4.0...1.4.1
