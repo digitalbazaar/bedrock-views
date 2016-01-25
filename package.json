@@ -28,11 +28,11 @@
     "glob": "~4.4.0",
     "html-minifier": "~0.7.0",
     "less": "~2.4.0",
+    "lodash": "^4.0.1",
     "minimatch": "~2.0.1",
     "ng-annotate": "~0.15.4",
     "swig": "~1.4.2",
-    "ua-parser": "~0.3.0",
-    "underscore": "~1.7.0"
+    "ua-parser": "~0.3.0"
   },
   "peerDependencies": {
     "bedrock": "^1.0.0",
