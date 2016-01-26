@@ -23,16 +23,16 @@
   },
   "homepage": "https://github.com/digitalbazaar/bedrock-views",
   "dependencies": {
-    "async": "^1.4.2",
-    "clean-css": "~3.0.10",
-    "glob": "~4.4.0",
-    "html-minifier": "~0.7.0",
-    "less": "~2.4.0",
+    "async": "^1.5.2",
+    "clean-css": "^3.4.9",
+    "glob": "^4.4.0",
+    "html-minifier": "^1.1.1",
+    "less": "^2.5.3",
     "lodash": "^4.0.1",
-    "minimatch": "~2.0.1",
-    "ng-annotate": "~0.15.4",
-    "swig": "~1.4.2",
-    "ua-parser": "~0.3.0"
+    "minimatch": "^2.0.1",
+    "ng-annotate": "^1.2.1",
+    "swig": "^1.4.2",
+    "ua-parser": "~0.3.5"
   },
   "peerDependencies": {
     "bedrock": "^1.0.0",
