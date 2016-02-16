@@ -2,6 +2,13 @@
 
 ## [Unreleased]
 
+## [1.5.2] - 2016-02-16
+
+### Changed
+- Switch underscore to lodash.
+- Update dependencies.
+- Log template minification errors as warnings.
+
 ## [1.5.1] - 2015-11-25
 
 ### Fixed
@@ -111,7 +118,8 @@
 
 - See git history for changes.
 
-[Unreleased]: https://github.com/digitalbazaar/bedrock-views/compare/1.5.1...HEAD
+[Unreleased]: https://github.com/digitalbazaar/bedrock-views/compare/1.5.2...HEAD
+[1.5.2]: https://github.com/digitalbazaar/bedrock-views/compare/1.5.1...1.5.2
 [1.5.1]: https://github.com/digitalbazaar/bedrock-views/compare/1.5.0...1.5.1
 [1.5.0]: https://github.com/digitalbazaar/bedrock-views/compare/1.4.2...1.5.0
 [1.4.2]: https://github.com/digitalbazaar/bedrock-views/compare/1.4.1...1.4.2
