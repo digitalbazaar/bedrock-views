@@ -2,6 +2,8 @@
 
 ## [Unreleased]
 
+## [2.0.1] - 2016-03-02
+
 ## [2.0.0] - 2016-03-02
 
 ### Changed
@@ -124,6 +126,7 @@
 - See git history for changes.
 
 [Unreleased]: https://github.com/digitalbazaar/bedrock-views/compare/1.5.2...HEAD
+[2.0.1]: https://github.com/digitalbazaar/bedrock-views/compare/2.0.0...2.0.1
 [2.0.0]: https://github.com/digitalbazaar/bedrock-views/compare/1.5.2...2.0.0
 [1.5.2]: https://github.com/digitalbazaar/bedrock-views/compare/1.5.1...1.5.2
 [1.5.1]: https://github.com/digitalbazaar/bedrock-views/compare/1.5.0...1.5.1
