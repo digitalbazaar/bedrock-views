@@ -15,6 +15,10 @@ client-side resources.
 * HTML optimization via [html-minifier][]
 * [AngularJS][] template optimization and [ng-annotate][] support
 
+## Requirements
+
+- npm v3+
+
 ## Quick Examples
 
 ```

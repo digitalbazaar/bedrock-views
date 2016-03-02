@@ -1,6 +1,6 @@
 {
   "name": "bedrock-views",
-  "version": "1.5.3-dev",
+  "version": "2.0.0-dev",
   "description": "Bedrock website views module",
   "main": "./lib/views",
   "scripts": {
@@ -24,6 +24,10 @@
   "homepage": "https://github.com/digitalbazaar/bedrock-views",
   "dependencies": {
     "async": "^1.5.2",
+    "bedrock": "^1.0.0",
+    "bedrock-express": "^2.0.0",
+    "bedrock-requirejs": "^2.0.0",
+    "bedrock-server": "^2.0.0",
     "clean-css": "^3.4.9",
     "glob": "^4.4.0",
     "html-minifier": "^1.1.1",
@@ -36,9 +40,9 @@
   },
   "peerDependencies": {
     "bedrock": "^1.0.0",
-    "bedrock-express": "^1.4.0",
-    "bedrock-requirejs": "^1.0.0",
-    "bedrock-server": "^1.0.0"
+    "bedrock-express": "^2.0.0",
+    "bedrock-requirejs": "^2.0.0",
+    "bedrock-server": "^2.0.0"
   },
   "directories": {
     "lib": "./lib"
