@@ -9,6 +9,7 @@
   ],
   "dependencies": {
     "bedrock-angular": "^1.4.0",
-    "bedrock-angular-navbar": "^1.0.0"
+    "bedrock-angular-navbar": "^1.0.0",
+    "bedrock-angular-footer": "digitalbazaar/bedrock-angular-footer#master"
   }
 }
