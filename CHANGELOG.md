@@ -2,6 +2,11 @@
 
 ## [Unreleased]
 
+### Changed
+- **BREAKING**: Remove built-in footer. To add a footer, bower install
+  `bedrock-angular-footer` and add custom links/copyright for your project.
+- **BREAKING**: Change RDFa prefix for bedrock to "br".
+
 ## [2.0.1] - 2016-03-02
 
 ## [2.0.0] - 2016-03-02
