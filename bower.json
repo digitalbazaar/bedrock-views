@@ -8,6 +8,6 @@
     "tests"
   ],
   "dependencies": {
-    "bedrock-angular": "^1.5.0"
+    "bedrock-angular": "^2.1.0"
   }
 }
