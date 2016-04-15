@@ -2,6 +2,22 @@
 
 ## [Unreleased]
 
+## [4.0.0] - 2016-04-15
+
+### Changed
+- **BREAKING**: Remove main default template and simplify
+  view files. Main routes have been removed and control
+  of customizing the client-side application has been
+  moved to the angular layer via bedrock-angular 2.1. A
+  number of old view files have been removed and
+  any customization using those files will need to be
+  updated to use an angular customization method instead.
+
+### Fixed
+- Removed bedrock* packages from dependencies list to
+  fix installation bugs. They are now only listed
+  as peer dependencies.
+
 ## [3.0.0] - 2016-03-11
 
 ### Changed
@@ -133,7 +149,8 @@
 
 - See git history for changes.
 
-[Unreleased]: https://github.com/digitalbazaar/bedrock-views/compare/3.0.0...HEAD
+[Unreleased]: https://github.com/digitalbazaar/bedrock-views/compare/4.0.0...HEAD
+[4.0.0]: https://github.com/digitalbazaar/bedrock-views/compare/3.0.0...4.0.0
 [3.0.0]: https://github.com/digitalbazaar/bedrock-views/compare/2.0.1...3.0.0
 [2.0.1]: https://github.com/digitalbazaar/bedrock-views/compare/2.0.0...2.0.1
 [2.0.0]: https://github.com/digitalbazaar/bedrock-views/compare/1.5.2...2.0.0
