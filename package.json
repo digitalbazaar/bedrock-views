@@ -30,6 +30,7 @@
     "less": "^2.5.3",
     "lodash": "^4.0.1",
     "minimatch": "^2.0.1",
+    "mkdirp": "^0.5.1",
     "ng-annotate": "^1.2.1",
     "swig": "^1.4.2",
     "ua-parser": "~0.3.5"

@@ -2,6 +2,9 @@
 
 ## [Unreleased]
 
+### Fixed
+- Make directories if needed when compiling and optimizing.
+
 ## [4.1.0] - 2016-05-10
 
 ### Added
