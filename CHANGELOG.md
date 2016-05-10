@@ -2,6 +2,10 @@
 
 ## [Unreleased]
 
+### Changed
+- Template optimization rules updated to recursively ignore HTML in
+  `node_modules` and `bower_components` directories.
+
 ### Fixed
 - Make directories if needed when compiling and optimizing.
 
