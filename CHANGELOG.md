@@ -16,7 +16,7 @@
   can be a string representing the name of the file
   (backwards compatible) or it can be an object with
   a `name` property for the file name and whatever
-  options are available, eg: `importAsLess: false`. By
+  options are available, e.g., `importAsLess: false`. By
   default, CSS files are imported as less and this
   behavior, on a per file basis, can now be disabled.
 
