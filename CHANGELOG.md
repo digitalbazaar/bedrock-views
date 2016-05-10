@@ -2,6 +2,21 @@
 
 ## [Unreleased]
 
+## [4.1.0] - 2016-05-10
+
+### Added
+- Add option to set options on files. The only option
+  currently supported is `importAsLess` which is a
+  boolean that may be set to true or false. So when
+  specifying files via `config.views.less.compile.packages`
+  or `config.views.less.compile.files`, a file entry
+  can be a string representing the name of the file
+  (backwards compatible) or it can be an object with
+  a `name` property for the file name and whatever
+  options are available, eg: `importAsLess: false`. By
+  default, CSS files are imported as less and this
+  behavior, on a per file basis, can now be disabled.
+
 ## [4.0.1] - 2016-04-15
 
 ## [4.0.0] - 2016-04-15
@@ -151,7 +166,8 @@
 
 - See git history for changes.
 
-[Unreleased]: https://github.com/digitalbazaar/bedrock-views/compare/4.0.1...HEAD
+[Unreleased]: https://github.com/digitalbazaar/bedrock-views/compare/4.1.0...HEAD
+[4.1.0]: https://github.com/digitalbazaar/bedrock-views/compare/4.0.1...4.1.0
 [4.0.1]: https://github.com/digitalbazaar/bedrock-views/compare/4.0.0...4.0.1
 [4.0.0]: https://github.com/digitalbazaar/bedrock-views/compare/3.0.0...4.0.0
 [3.0.0]: https://github.com/digitalbazaar/bedrock-views/compare/2.0.1...3.0.0
