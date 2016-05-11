@@ -2,6 +2,8 @@
 
 ## [Unreleased]
 
+## [4.1.1] - 2016-05-10
+
 ### Changed
 - Template optimization rules updated to recursively ignore HTML in
   `node_modules` and `bower_components` directories.
@@ -173,7 +175,8 @@
 
 - See git history for changes.
 
-[Unreleased]: https://github.com/digitalbazaar/bedrock-views/compare/4.1.0...HEAD
+[Unreleased]: https://github.com/digitalbazaar/bedrock-views/compare/4.1.1...HEAD
+[4.1.1]: https://github.com/digitalbazaar/bedrock-views/compare/4.1.0...4.1.1
 [4.1.0]: https://github.com/digitalbazaar/bedrock-views/compare/4.0.1...4.1.0
 [4.0.1]: https://github.com/digitalbazaar/bedrock-views/compare/4.0.0...4.0.1
 [4.0.0]: https://github.com/digitalbazaar/bedrock-views/compare/3.0.0...4.0.0
