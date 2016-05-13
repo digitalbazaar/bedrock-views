@@ -2,6 +2,11 @@
 
 ## [Unreleased]
 
+## [4.1.3] - 2016-05-13
+
+### Fixed
+- Ensure only CSS files are affected by special import rules.
+
 ## [4.1.2] - 2016-05-13
 
 ### Fixed
@@ -182,7 +187,8 @@
 
 - See git history for changes.
 
-[Unreleased]: https://github.com/digitalbazaar/bedrock-views/compare/4.1.2...HEAD
+[Unreleased]: https://github.com/digitalbazaar/bedrock-views/compare/4.1.3...HEAD
+[4.1.3]: https://github.com/digitalbazaar/bedrock-views/compare/4.1.2...4.1.3
 [4.1.2]: https://github.com/digitalbazaar/bedrock-views/compare/4.1.1...4.1.2
 [4.1.1]: https://github.com/digitalbazaar/bedrock-views/compare/4.1.0...4.1.1
 [4.1.0]: https://github.com/digitalbazaar/bedrock-views/compare/4.0.1...4.1.0
