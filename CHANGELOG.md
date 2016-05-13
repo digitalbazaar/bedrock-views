@@ -2,6 +2,13 @@
 
 ## [Unreleased]
 
+## [4.1.2] - 2016-05-13
+
+### Fixed
+- Fix bug where @import with bad path was used
+  when not importing as less; instead use `(inline)`
+  import to correct.
+
 ## [4.1.1] - 2016-05-10
 
 ### Changed
@@ -175,7 +182,8 @@
 
 - See git history for changes.
 
-[Unreleased]: https://github.com/digitalbazaar/bedrock-views/compare/4.1.1...HEAD
+[Unreleased]: https://github.com/digitalbazaar/bedrock-views/compare/4.1.2...HEAD
+[4.1.2]: https://github.com/digitalbazaar/bedrock-views/compare/4.1.1...4.1.2
 [4.1.1]: https://github.com/digitalbazaar/bedrock-views/compare/4.1.0...4.1.1
 [4.1.0]: https://github.com/digitalbazaar/bedrock-views/compare/4.0.1...4.1.0
 [4.0.1]: https://github.com/digitalbazaar/bedrock-views/compare/4.0.0...4.0.1
