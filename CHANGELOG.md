@@ -1,27 +1,33 @@
 # bedrock-views ChangeLog
 
-## [Unreleased]
+## 4.2.1 - 2016-06-21
 
-## [4.2.0] - 2016-05-30
+### Added
+- Add documentation on `config.views.less.compile.packages`.
+
+### Changed
+- Don't return 404 template on a 404 response.
+
+## 4.2.0 - 2016-05-30
 
 ### Added
 - Send CSRF token cookies with default route to allow frontend
   to post url-encoded or multipart-encoded forms if a route
   allows it.
 
-## [4.1.3] - 2016-05-13
+## 4.1.3 - 2016-05-13
 
 ### Fixed
 - Ensure only CSS files are affected by special import rules.
 
-## [4.1.2] - 2016-05-13
+## 4.1.2 - 2016-05-13
 
 ### Fixed
 - Fix bug where @import with bad path was used
   when not importing as less; instead use `(inline)`
   import to correct.
 
-## [4.1.1] - 2016-05-10
+## 4.1.1 - 2016-05-10
 
 ### Changed
 - Template optimization rules updated to recursively ignore HTML in
@@ -30,7 +36,7 @@
 ### Fixed
 - Make directories if needed when compiling and optimizing.
 
-## [4.1.0] - 2016-05-10
+## 4.1.0 - 2016-05-10
 
 ### Added
 - Add option to set options on files. The only option
@@ -45,9 +51,9 @@
   default, CSS files are imported as less and this
   behavior, on a per file basis, can now be disabled.
 
-## [4.0.1] - 2016-04-15
+## 4.0.1 - 2016-04-15
 
-## [4.0.0] - 2016-04-15
+## 4.0.0 - 2016-04-15
 
 ### Changed
 - **BREAKING**: Remove main default template and simplify
@@ -63,7 +69,7 @@
   fix installation bugs. They are now only listed
   as peer dependencies.
 
-## [3.0.0] - 2016-03-11
+## 3.0.0 - 2016-03-11
 
 ### Changed
 - **BREAKING**: Remove built-in footer. To add a footer, bower install
@@ -71,74 +77,74 @@
 - **BREAKING**: Change RDFa prefix for bedrock to "br".
 - Remove requirejs exclusion for bedrock-angular-identity.
 
-## [2.0.1] - 2016-03-02
+## 2.0.1 - 2016-03-02
 
-## [2.0.0] - 2016-03-02
+## 2.0.0 - 2016-03-02
 
 ### Changed
 - Update deps for npm v3 compatibility.
 
-## [1.5.2] - 2016-02-16
+## 1.5.2 - 2016-02-16
 
 ### Changed
 - Switch underscore to lodash.
 - Update dependencies.
 - Log template minification errors as warnings.
 
-## [1.5.1] - 2015-11-25
+## 1.5.1 - 2015-11-25
 
 ### Fixed
 - Made docs link in footer configurable.
 
-## [1.5.0] - 2015-10-29
+## 1.5.0 - 2015-10-29
 
 ### Added
 - Use `bedrock-angular-navbar`.
 
-## [1.4.2] - 2015-10-23
+## 1.4.2 - 2015-10-23
 
 ### Fixed
 - Fix inverted productionMode condition.
 
-## [1.4.1] - 2015-10-23
+## 1.4.1 - 2015-10-23
 
 ### Fixed
 - Fix footer bugs.
 
-## [1.4.0] - 2015-10-17
+## 1.4.0 - 2015-10-17
 
 ### Added
 - Make default footer and copyright configurable via `bedrock.config`.
 
-## [1.3.1] - 2015-10-15
+## 1.3.1 - 2015-10-15
 
 ### Added
 - Link to Material Design icons by Google.
 
-## [1.3.0] - 2015-10-14
+## 1.3.0 - 2015-10-14
 
 ### Added
 - A configurable context map for client-side json-ld.
 - Use `bedrock-angular` 1.4.0.
 
-## [1.2.0] - 2015-09-17
+## 1.2.0 - 2015-09-17
 
 ### Changes
 - Make default root landing page use angular routing.
 - Use `bedrock-angular` 1.3.0.
 
-## [1.1.2] - 2015-09-11
+## 1.1.2 - 2015-09-11
 
 ### Changes
 - Use `bedrock-angular` 1.2.1.
 
-## [1.1.1] - 2015-09-04
+## 1.1.1 - 2015-09-04
 
 ### Changes
 - Explicitly list and update `bedrock-express` dependency. Use `bedrock-express`
   error handler middleware.
 
-## [1.1.0] - 2015-08-24
+## 1.1.0 - 2015-08-24
 
 ### Changes
 - Display 404 errors via angular. This change allows angular routes to be
@@ -149,23 +155,23 @@
   will only display a 404 if there is both no express route *and* no angular
   route for that URL.
 
-## [1.0.4] - 2015-05-07
+## 1.0.4 - 2015-05-07
 
 ### Changes
 - Remove custom forge paths.
 
-## [1.0.3] - 2015-05-25
+## 1.0.3 - 2015-05-25
 
 ### Changes
 - Remove override of err.details.httpStatusCode.
 - Rework unhandled exceptions. Add 404 and 503 support.
 
-## [1.0.1] - 2015-05-07
+## 1.0.1 - 2015-05-07
 
 ### Fixed
 - Fix sending 503 status.
 
-## [1.0.0] - 2015-04-08
+## 1.0.0 - 2015-04-08
 
 ### Added
 - Add global option `--minify <mode>` where `mode` can be:
@@ -185,7 +191,7 @@
 ### Fixes
 - Bug fixes.
 
-## [0.1.1] - 2015-02-26
+## 0.1.1 - 2015-02-26
 
 ### Changed
 - Bug fixes.
