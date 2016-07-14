@@ -1,5 +1,12 @@
 # bedrock-views ChangeLog
 
+# 4.2.2 - 2016-07-14
+
+### Fixed
+- Default to sending HTML when `Accept: */*` header is sent.
+- Remove unnecessary default vars lookup when not sending html.
+- Do not send erroneous JSON/JSON-LD via fallback handler.
+
 ## 4.2.1 - 2016-06-21
 
 ### Added
