@@ -1,5 +1,7 @@
 # bedrock-views ChangeLog
 
+# 4.2.3 - 2016-07-22
+
 ### Fixed
 - Send 404 when status code already set and HTML not acceptable.
 
