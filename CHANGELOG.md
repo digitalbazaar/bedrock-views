@@ -1,5 +1,10 @@
 # bedrock-views ChangeLog
 
+# 4.2.5 - 2016-10-18
+
+### Changed
+- Add renderTimeout config.
+
 # 4.2.4 - 2016-10-18
 
 ### Fixed
