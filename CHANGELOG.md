@@ -1,5 +1,10 @@
 # bedrock-views ChangeLog
 
+# 4.2.4 - 2016-10-18
+
+### Fixed
+- Ensure `window.data` is loaded early.
+
 # 4.2.3 - 2016-07-22
 
 ### Fixed
