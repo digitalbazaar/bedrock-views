@@ -1,21 +1,26 @@
 # bedrock-views ChangeLog
 
-# 4.2.5 - 2016-10-18
+## 4.2.6 - 2016-11-15
+
+### Changed
+- Remove references to `custom.css` and `ie.css`.
+
+## 4.2.5 - 2016-10-18
 
 ### Changed
 - Add renderTimeout config.
 
-# 4.2.4 - 2016-10-18
+## 4.2.4 - 2016-10-18
 
 ### Fixed
 - Ensure `window.data` is loaded early.
 
-# 4.2.3 - 2016-07-22
+## 4.2.3 - 2016-07-22
 
 ### Fixed
 - Send 404 when status code already set and HTML not acceptable.
 
-# 4.2.2 - 2016-07-14
+## 4.2.2 - 2016-07-14
 
 ### Fixed
 - Default to sending HTML when `Accept: */*` header is sent.
