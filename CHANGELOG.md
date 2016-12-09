@@ -1,5 +1,7 @@
 # bedrock-views ChangeLog
 
+## 4.3.0 - 2016-12-09
+
 ### Changed
 - Update bedrock dependency.
 - Use computed config for cache paths.
