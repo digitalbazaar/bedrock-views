@@ -1,5 +1,7 @@
 # bedrock-views ChangeLog
 
+## 4.3.1 - 2016-12-15
+
 ### Fixed
 - Search for angular templates in bower packages that specify
   angular or bedrock-angular as dependency but do not specify
