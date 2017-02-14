@@ -1,5 +1,10 @@
 # bedrock-views ChangeLog
 
+## 4.4.0 - 2017-02-13
+
+### Added
+- Add AngularJS options for configuring body css.
+
 ## 4.3.1 - 2016-12-15
 
 ### Fixed
