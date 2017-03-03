@@ -1,5 +1,10 @@
 # bedrock-views ChangeLog
 
+## 4.4.1 - 2017-03-02
+
+### Changed
+- Update dependencies.
+
 ## 4.4.0 - 2017-02-13
 
 ### Added
