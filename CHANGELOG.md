@@ -1,5 +1,10 @@
 # bedrock-views ChangeLog
 
+## 4.4.2 - 2017-04-17
+
+### Fixed
+- Upgrade dependencies to address CSS optimization bug.
+
 ## 4.4.1 - 2017-03-02
 
 ### Changed
