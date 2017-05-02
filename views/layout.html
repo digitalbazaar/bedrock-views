@@ -32,9 +32,9 @@
     {% if pageLayout != "error" %}
       {% include "data.html" %}
       {% if minify %}
-        <script src="/requirejs/main.min.js"></script>
+        <script defer src="/requirejs/main.min.js"></script>
       {% else %}
-        <script data-main="/requirejs/main.js" src="/bower-components/requirejs/require.js"></script>
+        <script defer data-main="/requirejs/main.js" src="/bower-components/requirejs/require.js"></script>
       {% endif %}
     {% endif %}
   </head>
