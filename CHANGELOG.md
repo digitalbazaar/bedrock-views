@@ -1,5 +1,10 @@
 # bedrock-views ChangeLog
 
+## 4.5.0 - 2017-05-02
+
+### Added
+- Defer script loading in default layout until after HTML parsing completes.
+
 ## 4.4.2 - 2017-04-17
 
 ### Fixed
