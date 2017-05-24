@@ -41,7 +41,7 @@
   "peerDependencies": {
     "bedrock": "^1.4.0",
     "bedrock-express": "^2.0.0",
-    "bedrock-requirejs": "^2.0.0",
+    "bedrock-requirejs": "digitalbazaar/bedrock-requirejs#systemjs-transition",
     "bedrock-server": "^2.0.0"
   },
   "directories": {
