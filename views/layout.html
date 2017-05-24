@@ -36,10 +36,10 @@
     {% if pageLayout != "error" %}
       {% include "data.html" %}
       {% if minify %}
-        <script defer src="/system/main.min.js"></script>
+        <script defer src="/system/app/main.min.js"></script>
       {% else %}
         <script defer src="/system/system.js"></script>
-        <script defer src="/system/main.js"></script>
+        <script defer src="/system/app/main.js"></script>
       {% endif %}
     {% endif %}
   </head>
