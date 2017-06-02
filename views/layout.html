@@ -68,13 +68,11 @@
   {% else %}
   <body>
     {% block unsupportedUserAgent %}
-    <div class="container">
-      <div class="alert alert-danger">
-        Your browser
-        ({{userAgent().family}} {{userAgent().major}}.{{userAgent().minor}}.{{userAgent().patch}})
-        is <strong>out of date</strong> and unable to display this site.
-        Please <a href="http://www.updateyourbrowser.net/">update your browser.</a>
-      </div>
+    <div>
+      Your browser
+      ({{userAgent().family}} {{userAgent().major}}.{{userAgent().minor}}.{{userAgent().patch}})
+      is <strong>out of date</strong> and unable to display this site.
+      Please <a href="http://www.updateyourbrowser.net/">update your browser.</a>
     </div>
     {% endblock %}
   </body>
