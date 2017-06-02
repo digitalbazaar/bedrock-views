@@ -3,6 +3,7 @@
 ### Changed
 - **BREAKING**: Remove prefixes from html element.
 - Move supported user agent check to server side template from bedrock-angular.
+- Remove no-javascript warning.
 
 ## 4.5.0 - 2017-05-02
 
