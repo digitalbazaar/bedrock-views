@@ -1,5 +1,10 @@
 # bedrock-views ChangeLog
 
+## 5.0.0 - 2017-06-02
+
+### Added
+- SystemJS module loader.
+
 ### Changed
 - **BREAKING**: Remove prefixes from html element.
 - Move supported user agent check to server side template from bedrock-angular.
