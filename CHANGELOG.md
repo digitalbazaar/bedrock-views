@@ -4,6 +4,7 @@
 - **BREAKING**: Remove prefixes from html element.
 - Move supported user agent check to server side template from bedrock-angular.
 - Remove no-javascript warning.
+- Return 404 when requesting modules that are not found.
 
 ## 4.5.0 - 2017-05-02
 
