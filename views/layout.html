@@ -44,6 +44,7 @@
     {% endif %}
   </head>
 
+  {% if hasSupportedUserAgent() %}
   <body class="{{(app.ngClass.body && '') || 'br-body'}}"
     ng-class="app.ngClass.body"
     ng-style="app.ngStyle.body" ng-cloak>
@@ -64,4 +65,18 @@
     <br-app></br-app>
     {% endblock %}
   </body>
+  {% else %}
+  <body>
+    {% block unsupportedUserAgent %}
+    <div class="container">
+      <div class="alert alert-danger">
+        Your browser
+        ({{userAgent().family}} {{userAgent().major}}.{{userAgent().minor}}.{{userAgent().patch}})
+        is <strong>out of date</strong> and unable to display this site.
+        Please <a href="http://www.updateyourbrowser.net/">update your browser.</a>
+      </div>
+    </div>
+    {% endblock %}
+  </body>
+  {% endif %}
 </html>
