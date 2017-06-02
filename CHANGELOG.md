@@ -1,5 +1,8 @@
 # bedrock-views ChangeLog
 
+### Changed
+- Move supported user agent check to server side template from bedrock-angular.
+
 ## 4.5.0 - 2017-05-02
 
 ### Added
