@@ -1,5 +1,10 @@
 # bedrock-views ChangeLog
 
+## 5.0.1 - 2017-06-04
+
+### Fixed
+- Remove unused `app.config.data.noRoute`.
+
 ## 5.0.0 - 2017-06-02
 
 ### Added
