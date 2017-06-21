@@ -1,5 +1,10 @@
 # bedrock-views ChangeLog
 
+## 5.0.2 - 2017-06-21
+
+### Fixed
+- Resequence application of package overrides.
+
 ## 5.0.1 - 2017-06-04
 
 ### Fixed
