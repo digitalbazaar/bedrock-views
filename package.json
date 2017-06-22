@@ -41,7 +41,8 @@
   "peerDependencies": {
     "bedrock": "^1.4.0",
     "bedrock-express": "^2.0.0",
-    "bedrock-server": "^2.0.0"
+    "bedrock-server": "^2.0.0",
+    "bedrock-webpack": "digitalbazaar/bedrock-webpack#webpack"
   },
   "directories": {
     "lib": "./lib"

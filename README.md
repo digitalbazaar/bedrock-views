@@ -8,7 +8,7 @@ client-side resources.
 **bedrock-views** has the following properties/features:
 * Server-rendered views via the [Swig][] templating engine
 * Client-side [AngularJS][] application via [bedrock-angular][]
-* Client-side modules and JavaScript optimization via [bedrock-requirejs][]
+* Client-side modules and JavaScript optimization via [bedrock-webpack][]
 * HTML and CSS framework via [bootstrap][] v3
 * [Less][] compilation support via [less][]
 * CSS optimization via [clean-css][]
@@ -25,8 +25,7 @@ client-side resources.
 npm install bedrock-views
 ```
 
-Start an express server with **bedrock-requirejs** support and an [AngularJS][]
-frontend:
+Start an express server with an [AngularJS][] frontend:
 
 ```
 bower install bedrock-angular
@@ -36,7 +35,6 @@ bower install bedrock-angular
 var bedrock = require('bedrock');
 
 require('bedrock-express');
-require('bedrock-requirejs');
 require('bedrock-server');
 require('bedrock-views');
 
@@ -73,11 +71,15 @@ TODO: description of `bedrock-views.vars.get` event
 TODO: description of `bedrock-views.add` event (possibly rename as well)
 -->
 
+<!--
+TODO: description of 'bedrock-views.cli.optimize.init' event
+-->
+
 [bedrock]: https://github.com/digitalbazaar/bedrock
 [bedrock-angular]: https://github.com/digitalbazaar/bedrock-angular
 [bedrock-express]: https://github.com/digitalbazaar/bedrock-express
-[bedrock-requirejs]: https://github.com/digitalbazaar/bedrock-requirejs
 [bedrock-views]: https://github.com/digitalbazaar/bedrock-views
+[bedrock-webpack]: https://github.com/digitalbazaar/bedrock-webpack
 [bootstrap]: http://getbootstrap.com/
 [bower]: http://bower.io/
 [clean-css]: https://github.com/jakubpawlowicz/clean-css
@@ -86,5 +88,4 @@ TODO: description of `bedrock-views.add` event (possibly rename as well)
 [ng-annotate]: https://github.com/olov/ng-annotate
 [AngularJS]: https://github.com/angular/angular.js
 [Less]: http://lesscss.org/
-[RequireJS]: http://requirejs.org/
 [Swig]: http://paularmstrong.github.io/swig/
