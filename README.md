@@ -13,7 +13,7 @@ client-side resources.
 * [Less][] compilation support via [less][]
 * CSS optimization via [clean-css][]
 * HTML optimization via [html-minifier][]
-* [AngularJS][] template optimization and [ng-annotate][] support
+* [AngularJS][] template optimization
 
 ## Requirements
 
@@ -85,7 +85,6 @@ TODO: description of 'bedrock-views.cli.optimize.init' event
 [clean-css]: https://github.com/jakubpawlowicz/clean-css
 [html-minifier]: https://github.com/kangax/html-minifier
 [less]: https://github.com/less/less.js/
-[ng-annotate]: https://github.com/olov/ng-annotate
 [AngularJS]: https://github.com/angular/angular.js
 [Less]: http://lesscss.org/
 [Swig]: http://paularmstrong.github.io/swig/
