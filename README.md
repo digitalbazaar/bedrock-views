@@ -8,7 +8,7 @@ client-side resources.
 **bedrock-views** has the following properties/features:
 * Server-rendered views via the [Swig][] templating engine
 * Client-side [AngularJS][] application via [bedrock-angular][]
-* Client-side modules and JavaScript optimization via [bedrock-webpack][]
+* Client-side modules and JavaScript optimization using [bedrock-webpack][]
 * HTML and CSS framework via [bootstrap][] v3
 * [Less][] compilation support via [less][]
 * CSS optimization via [clean-css][]
