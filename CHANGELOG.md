@@ -1,5 +1,22 @@
 # bedrock-views ChangeLog
 
+### Added
+- `bedrock-views.cli.compile-less.configure` event.
+- `bedrock-views.cli.optimize.configure` event.
+- Timing output.
+- `bedrock-views.optimize.run` event.
+- Improve package browser, module, main field support.
+- ES module main.
+
+### Removed
+- requirejs support.
+- ng-annotate support (allow optimizer to do this).
+
+### Changed
+- Update to newer async API.
+- Output ES module style templates file.
+- Simplify SystemJS main.
+
 ## 5.0.2 - 2017-06-21
 
 ### Fixed
