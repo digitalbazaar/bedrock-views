@@ -72,7 +72,9 @@ TODO: description of `bedrock-views.add` event (possibly rename as well)
 -->
 
 <!--
-TODO: description of 'bedrock-views.cli.optimize.init' event
+TODO: description of 'bedrock-views.cli.compile-less.configure' event
+TODO: description of 'bedrock-views.cli.optimize.configure' event
+TODO: description of 'bedrock-views.optimize.run' event
 -->
 
 [bedrock]: https://github.com/digitalbazaar/bedrock
