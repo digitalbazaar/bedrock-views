@@ -1,5 +1,7 @@
 # bedrock-views ChangeLog
 
+## 5.1.0 - 2017-06-29
+
 ### Added
 - `bedrock-views.cli.compile-less.configure` event.
 - `bedrock-views.cli.optimize.configure` event.
