@@ -26,11 +26,11 @@
     "async": "^2.4.1",
     "clean-css": "^4.0.11",
     "csurf": "^1.9.0",
-    "glob": "^7.1.1",
+    "glob": "^7.1.2",
     "html-minifier": "^3.4.2",
     "less": "^2.5.3",
     "lodash": "^4.0.1",
-    "minimatch": "^3.0.3",
+    "minimatch": "^3.0.4",
     "mkdirp": "^0.5.1",
     "swig": "^1.4.2",
     "systemjs": "^0.20.12",
@@ -38,7 +38,7 @@
     "ua-parser": "~0.3.5"
   },
   "peerDependencies": {
-    "bedrock": "^1.4.0",
+    "bedrock": "^1.5.0",
     "bedrock-express": "^2.0.0",
     "bedrock-server": "^2.0.0"
   },
