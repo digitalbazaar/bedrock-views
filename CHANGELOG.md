@@ -1,5 +1,8 @@
 # bedrock-views ChangeLog
 
+### Changed
+- Use child logger.
+
 ## 5.1.0 - 2017-06-29
 
 ### Added
