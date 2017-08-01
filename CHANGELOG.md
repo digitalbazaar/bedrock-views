@@ -1,5 +1,10 @@
 # bedrock-views ChangeLog
 
+## 5.2.0 - 2017-08-01
+
+### Added
+- Add ability to specify browser dependencies in manifest overrides.
+
 ## 5.1.1 - 2017-07-27
 
 ### Changed
