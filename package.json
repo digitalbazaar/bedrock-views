@@ -34,7 +34,7 @@
     "mkdirp": "^0.5.1",
     "swig": "^1.4.2",
     "systemjs": "^0.20.12",
-    "systemjs-plugin-babel": "0.0.21",
+    "systemjs-plugin-babel": "^0.0.25",
     "ua-parser": "~0.3.5"
   },
   "peerDependencies": {
