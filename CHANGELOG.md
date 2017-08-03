@@ -1,5 +1,12 @@
 # bedrock-views ChangeLog
 
+## 5.2.1 - 2017-08-03
+
+### Fixed
+- Disable `stage1`, `stage2`, and `stage3` transpilation by default
+  to fix transpilation bugs when running in dev mode. As expected,
+  requires modern browser.
+
 ## 5.2.0 - 2017-08-01
 
 ### Added
