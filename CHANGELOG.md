@@ -1,5 +1,10 @@
 # bedrock-views ChangeLog
 
+## 5.2.2 - 2017-08-17
+
+### Changed
+- Add debug logger for contents of the `importAll` file.
+
 ## 5.2.1 - 2017-08-03
 
 ### Fixed
