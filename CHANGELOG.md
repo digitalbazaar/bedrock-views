@@ -1,5 +1,10 @@
 # bedrock-views ChangeLog
 
+## 5.3.0 - 2017-08-24
+
+### Added
+- Add app load spinner.
+
 ## 5.2.3 - 2017-08-24
 
 ### Fixed
