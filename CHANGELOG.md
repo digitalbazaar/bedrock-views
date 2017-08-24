@@ -1,5 +1,15 @@
 # bedrock-views ChangeLog
 
+## 5.2.3 - 2017-08-24
+
+### Fixed
+- Remove unnecessary `ng-cloak` on body. Enables sites
+  to show content before app is bootstrapped. If custom
+  content should not be shown then `ng-cloak` can be
+  added to the content -- therefore this approach is
+  more flexible. Should have no effect on applications
+  that do not add their own custom pre-bootstrap content.
+
 ## 5.2.2 - 2017-08-17
 
 ### Changed
