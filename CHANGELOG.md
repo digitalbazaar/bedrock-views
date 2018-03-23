@@ -1,5 +1,9 @@
 # bedrock-views ChangeLog
 
+### Changed
+- Use bedrock-frontend instead of bedrock-angular to start
+  frontend.
+
 ## 5.3.0 - 2017-08-24
 
 ### Added
