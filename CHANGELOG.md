@@ -1,5 +1,10 @@
 # bedrock-views ChangeLog
 
+## 5.4.1 - 2018-05-02
+
+### Changed
+- Use bedrock-web (renamed from bedrock-frontend).
+
 ## 5.4.0 - 2018-03-22
 
 ### Changed
