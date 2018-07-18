@@ -1,5 +1,8 @@
 # bedrock-views ChangeLog
 
+### Added
+- Support bundle chunking/dynamic imports.
+
 ## 5.4.1 - 2018-05-02
 
 ### Changed
