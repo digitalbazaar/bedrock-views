@@ -1,5 +1,7 @@
 # bedrock-views ChangeLog
 
+## 6.0.0 - 2018-08-06
+
 ### Added
 - Support bundle chunking/dynamic imports.
 - Add pkgs to the optimize.run event.
