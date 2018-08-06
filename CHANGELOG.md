@@ -2,6 +2,18 @@
 
 ### Added
 - Support bundle chunking/dynamic imports.
+- Add pkgs to the optimize.run event.
+- Add Vue SFC compiler.
+
+### Fixed
+- Ensure that the externals option for webpack is being built "deep".
+- Include peerDependencies when browserDependencies "all".
+- Do not use angular-templates when there aren't any.
+- Improve circular dependency detection.
+
+### Removed
+- **BREAKING**: Remove bower support.
+- **BREAKING**: Remove old default config vars for font-awesome and bootstrap.
 
 ## 5.4.1 - 2018-05-02
 
