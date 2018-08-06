@@ -1,0 +1,8 @@
+{
+  "globals": {
+    "System": true,
+    "SystemJS": true,
+    "URL": true,
+    "fetch": true
+  }
+}
