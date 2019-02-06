@@ -1,5 +1,10 @@
 # bedrock-views ChangeLog
 
+## 6.0.0 - xxxxx
+
+### Added
+- Support loading json files.
+
 ## 6.0.0 - 2018-08-06
 
 ### Added
