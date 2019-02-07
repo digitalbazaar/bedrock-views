@@ -1,5 +1,10 @@
 # bedrock-views ChangeLog
 
+## 6.2.0 - xxxxx
+
+### Added
+- Support scss, sass, less, and stylus for css preprocessing for vue.
+
 ## 6.1.0 - 2019-02-06
 
 ### Added
