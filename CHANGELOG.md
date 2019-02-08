@@ -1,5 +1,10 @@
 # bedrock-views ChangeLog
 
+## 6.2.1 - 2019-02-07
+
+### Fixed
+- Fix path resolution for CSS preprocessors.
+
 ## 6.2.0 - 2019-02-07
 
 ### Added
