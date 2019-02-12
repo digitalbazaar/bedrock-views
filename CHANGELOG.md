@@ -1,5 +1,8 @@
 # bedrock-views ChangeLog
 
+### Added
+- eslint support.
+
 ## 6.5.0 - 2019-03-05
 
 ### Added
