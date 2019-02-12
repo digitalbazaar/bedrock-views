@@ -1,6 +1,6 @@
 # bedrock-views ChangeLog
 
-## 6.3.0 - 2019-xx-xx
+## 6.3.0 - 2019-02-12
 
 ### Added
 - Enable loading of frontend peer dependencies in Vue SFCs
