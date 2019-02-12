@@ -2,6 +2,9 @@
 
 ### Added
 - eslint support.
+- Initial "watch" support.
+  - Used to rebuild optimized output as source files change.
+  - To use add following to the command line: `--minify true --watch true`.
 
 ## 6.5.1 - 2019-10-03
 
