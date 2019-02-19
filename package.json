@@ -45,7 +45,7 @@
     "ua-parser": "~0.3.5",
     "vue-loader": "^14.2.2",
     "vue-style-loader": "^4.1.0",
-    "vue-template-compiler": "^2.5.16",
+    "vue-template-compiler": "^2.6.6",
     "webpack": "^4.4.1"
   },
   "peerDependencies": {
