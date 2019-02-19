@@ -1,5 +1,10 @@
 # bedrock-views ChangeLog
 
+## 6.4.0 - 2019-02-19
+
+### Added
+- Upgrade vue-template-complier to 2.6.x.
+
 ## 6.3.0 - 2019-02-12
 
 ### Added
