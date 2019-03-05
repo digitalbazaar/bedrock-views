@@ -6,6 +6,8 @@
 - Add workaround for packages that load `crypto` and use it
   like `window.crypto`.
 - Add package config path for loading `@scoped` packages.
+- Upgrade systemjs babel to use babel-standalone instead of
+  old prebuilt systemjs babel plugin.
 
 ## 6.4.0 - 2019-02-19
 
