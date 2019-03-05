@@ -1,5 +1,12 @@
 # bedrock-views ChangeLog
 
+## 6.5.0 - 2019-xx-xx
+
+### Added
+- Add workaround for packages that load `crypto` and use it
+  like `window.crypto`.
+- Add package config path for loading `@scoped` packages.
+
 ## 6.4.0 - 2019-02-19
 
 ### Added
