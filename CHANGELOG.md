@@ -1,6 +1,6 @@
 # bedrock-views ChangeLog
 
-## 6.5.0 - 2019-xx-xx
+## 6.5.0 - 2019-03-05
 
 ### Added
 - Add workaround for packages that load `crypto` and use it
