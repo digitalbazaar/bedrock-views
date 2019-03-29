@@ -4,7 +4,12 @@
 - eslint support.
 - Initial "watch" support.
   - Used to rebuild optimized output as source files change.
-  - To use add following to the command line: `--minify true --watch true`.
+  - Explicitly enabled with: `--minify true --watch true`.
+
+### Changed
+- Use "watch" support by default for development.
+  - Replaces SystemJS usage.
+  - Uses webpack "development" mode for built files.
 
 ## 6.5.1 - 2019-10-03
 
