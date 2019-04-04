@@ -1,15 +1,18 @@
 # bedrock-views ChangeLog
 
+### Changed
+- Use "watch" support by default for development.
+  - Replaces SystemJS usage.
+  - Uses webpack "development" mode for built files.
+
 ### Added
 - eslint support.
 - Initial "watch" support.
   - Used to rebuild optimized output as source files change.
   - Explicitly enabled with: `--minify true --watch true`.
 
-### Changed
-- Use "watch" support by default for development.
-  - Replaces SystemJS usage.
-  - Uses webpack "development" mode for built files.
+### Removed
+- **BREAKING**: AngularJS support.
 
 ## 6.5.1 - 2019-10-03
 
