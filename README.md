@@ -2,18 +2,16 @@
 
 A [bedrock][] module that combines a number of popular frontend technologies
 to provide a modern, flexible, and extensible Web-based user interface. It
-is coupled with the [bower][] module, [bedrock-angular][], which provides
+is coupled with [webpack][], and [bedrock-vue][], which provides
 client-side resources.
 
 **bedrock-views** has the following properties/features:
 * Server-rendered views via the [Swig][] templating engine
-* Client-side [AngularJS][] application via [bedrock-angular][]
+* Client-side [Vue][] application via [bedrock-vue][]
 * Client-side modules and JavaScript optimization using [bedrock-webpack][]
 * HTML and CSS framework via [bootstrap][] v3
 * [Less][] compilation support via [less][]
 * CSS optimization via [clean-css][]
-* HTML optimization via [html-minifier][]
-* [AngularJS][] template optimization
 
 ## Requirements
 
@@ -25,10 +23,10 @@ client-side resources.
 npm install bedrock-views
 ```
 
-Start an express server with an [AngularJS][] frontend:
+Start an express server with an [Vue][] frontend:
 
 ```
-bower install bedrock-angular
+npm install bedrock-vue
 ```
 
 ```js
@@ -49,7 +47,7 @@ TODO: use 'bedrock-views.vars.get' event
 
 ## Setup
 
-1. bower install bedrock-angular
+1. npm install bedrock-vue
 
 ## Configuration
 
@@ -58,7 +56,7 @@ options and to expose [less][], [clean-css][], and [html-minifier][] options.
 
 <!--
 TODO: description of `bedrock.config.views.vars`
-TODO: description of how to override angular templates
+TODO: description of how to override vue templates
 -->
 
 More documentation about their usage can be found in [config.js](./lib/config.js).
@@ -78,15 +76,14 @@ TODO: description of 'bedrock-views.optimize.run' event
 -->
 
 [bedrock]: https://github.com/digitalbazaar/bedrock
-[bedrock-angular]: https://github.com/digitalbazaar/bedrock-angular
 [bedrock-express]: https://github.com/digitalbazaar/bedrock-express
 [bedrock-views]: https://github.com/digitalbazaar/bedrock-views
+[bedrock-vue]: https://github.com/digitalbazaar/bedrock-vue
 [bedrock-webpack]: https://github.com/digitalbazaar/bedrock-webpack
 [bootstrap]: http://getbootstrap.com/
-[bower]: http://bower.io/
 [clean-css]: https://github.com/jakubpawlowicz/clean-css
-[html-minifier]: https://github.com/kangax/html-minifier
 [less]: https://github.com/less/less.js/
-[AngularJS]: https://github.com/angular/angular.js
+[webpack]: https://webpack.js.org/
 [Less]: http://lesscss.org/
 [Swig]: http://paularmstrong.github.io/swig/
+[Vue]: https://vuejs.org/
