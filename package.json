@@ -26,7 +26,7 @@
     "async": "^2.4.1",
     "babel-standalone": "^6.26.0",
     "clean-css": "^4.0.11",
-    "css-loader": "^0.28.11",
+    "css-loader": "^1.0.0",
     "csurf": "^1.9.0",
     "fs-extra": "^5.0.0",
     "glob": "^7.1.2",
