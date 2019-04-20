@@ -9,7 +9,7 @@
 - eslint support.
 - Initial "watch" support.
   - Used to rebuild optimized output as source files change.
-  - Explicitly enabled with: `--minify true --watch true`.
+  - Explicitly enabled with: `--watch true`.
 
 ### Removed
 - **BREAKING**: AngularJS support.
