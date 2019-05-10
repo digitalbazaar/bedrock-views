@@ -4,6 +4,18 @@
 - Use "watch" support by default for development.
   - Replaces SystemJS usage.
   - Uses webpack "development" mode for built files.
+- **BREAKING**: Various config properties are changed or renamed.
+  - Add `views.bundle`.
+  - Add `views.modules.baseURL`.
+  - Remove `views.system`. (aliased to `views.bundle` for backwards
+    compatibility).
+  - Add `views.bundle.paths.input.root` (old importAll).
+  - Add `views.bundle.paths.output.local`.
+  - Add `views.bundle.paths.output.public`.
+  - Add `views.bundle.paths.output.main`.
+  - Add `views.bundle.paths.output.optimize.main`.
+- Default generated output files to `js`/`css` dirs.
+- Default generated output routes to '/static/{css,js}'.
 
 ### Added
 - eslint support.
@@ -13,6 +25,7 @@
 
 ### Removed
 - **BREAKING**: AngularJS support.
+- **BREAKING**: SystemJS support.
 
 ## 6.5.1 - 2019-10-03
 
