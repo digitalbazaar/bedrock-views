@@ -9,11 +9,13 @@
     <link href='https://fonts.googleapis.com/css?family=Droid+Sans:400,700|Droid+Sans+Mono' rel='stylesheet' type='text/css'
       media="none" onload="if(media!='all')media='all'">
     {% if minify %}
-      <link href="/css/bedrock-views.min.css" rel="stylesheet" type="text/css"
+      {% block css %}
+      <link href="/static/css/main.min.css" rel="stylesheet" type="text/css"
         media="none" onload="if(media!='all')media='all'">
+      {% endblock %}
     {% else %}
       {% block css %}
-      <link href="/css/bedrock-views.css" rel="stylesheet" type="text/css"
+      <link href="/static/css/main.css" rel="stylesheet" type="text/css"
         media="none" onload="if(media!='all')media='all'">
       {% endblock %}
     {% endif %}
@@ -25,7 +27,11 @@
 
     {% if pageLayout != "error" %}
       {% include "data.html" %}
-      <script defer src="/system/app/main.min.js"></script>
+      {% if minify %}
+        <script defer src="/static/js/bundle.min.js"></script>
+      {% else %}
+        <script defer src="/static/js/bundle.js"></script>
+      {% endif %}
     {% endif %}
   </head>
 
