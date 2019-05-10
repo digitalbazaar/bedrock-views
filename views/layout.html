@@ -36,9 +36,7 @@
   </head>
 
   {% if hasSupportedUserAgent() %}
-  <body class="{{(app.ngClass.body && '') || 'br-body'}}"
-    ng-class="app.ngClass.body"
-    ng-style="app.ngStyle.body">
+  <body class="br-body">
     {% if pageLayout != "error" %}
     {% block forcedFonts %}{% endblock %}
     {% endif %}
