@@ -24,15 +24,11 @@
   },
   "homepage": "https://github.com/digitalbazaar/bedrock-views",
   "dependencies": {
-    "async": "^2.6.2",
     "babel-standalone": "^6.26.0",
-    "clean-css": "^4.2.1",
     "csurf": "^1.9.0",
     "fs-extra": "^7.0.1",
-    "less": "^3.9.0",
     "lodash": "^4.17.11",
     "make-dir": "^3.0.0",
-    "mkdirp": "^0.5.1",
     "swig": "^1.4.2",
     "ua-parser": "~0.3.5",
     "webpack": "^4.30.0"
