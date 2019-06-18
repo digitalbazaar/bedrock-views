@@ -16,6 +16,11 @@
   - Add `views.bundle.paths.output.optimize.main`.
 - Default generated output files to `js`/`css` dirs.
 - Default generated output routes to '/static/{css,js}'.
+- **BREAKING**: Modules must use appropriate `package.json` fields to specify
+  their main file for Webpack. In particular, use the `browser` field as
+  needed.
+- Use relative path to load root file to avoid issues when package name is not
+  the same as the directory name.
 
 ### Added
 - eslint support.
