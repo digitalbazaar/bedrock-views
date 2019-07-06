@@ -4,7 +4,9 @@
   "description": "Bedrock website views module",
   "main": "./lib/index",
   "scripts": {
-    "test": "node test.js"
+    "test": "node test.js",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "repository": {
     "type": "git",
@@ -46,7 +48,8 @@
     "vue-loader": "^14.2.2",
     "vue-style-loader": "^4.1.0",
     "vue-template-compiler": "^2.6.6",
-    "webpack": "^4.4.1"
+    "webpack": "^4.4.1",
+    "snyk": "^1.192.3"
   },
   "peerDependencies": {
     "bedrock": "^1.12.1",
@@ -55,5 +58,6 @@
   },
   "directories": {
     "lib": "./lib"
-  }
+  },
+  "snyk": true
 }
