@@ -1,5 +1,10 @@
 # bedrock-views ChangeLog
 
+## 6.5.1 - 2019-10-xx
+
+### Fixed
+- Fix bug that preventing overriding default views behavior.
+
 ## 6.5.0 - 2019-03-05
 
 ### Added
