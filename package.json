@@ -33,7 +33,8 @@
   "peerDependencies": {
     "bedrock": "^1.12.1",
     "bedrock-express": "^2.1.0",
-    "bedrock-server": "^2.0.0"
+    "bedrock-server": "^2.0.0",
+    "bedrock-web": "^1.1.0"
   },
   "directories": {
     "lib": "./lib"
