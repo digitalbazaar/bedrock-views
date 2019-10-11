@@ -1,5 +1,37 @@
 # bedrock-views ChangeLog
 
+## 7.0.0 - 2019-xx-xx
+
+### Notes
+- **BREAKING**: This is a major release. **Upgrading is required.** Read the
+  changes below and likely those in `bedrock-webpack`.
+- Upgrade process:
+  - Upgrade or add `package.json` dependencies:
+    - `"bedrock-fontawesome": "^1.0.0"`
+    - `"bedrock-quasar": "^4.0.0"`
+    - `"bedrock-vue": "^1.3.0"`
+    - `"bedrock-webpack": "^3.0.0"`
+  - Remove `compile-less` scripts from `package.json` or elsewhere. No longer
+    used.
+  - (optional) Add `webpackChunkName` notation to dynamic imports for
+    debugging.
+  - If webpack has trouble with `crypto`, check if its usage can be easily
+    avoided. If not, one technique is to add `bedrock-webpack` config that
+    aliases `crypto` to a file that just throws an error. Some libraries use a
+    try/catch on `crypto` to choose Node.js or browser paths. Try to move away
+    from this if possible.
+  - In a top level file, like `components/app.js` add as needed:
+    - `import './app.less';` (or `.css` or other supported formats)
+    - `import 'bedrock-fontawesome';`
+  - If using a LESS file, may need to remove var usage. The
+    `bedrock-fontawesome` package will load common files for that package. May
+    need to update to `@import (css) url('...');` syntax.
+  - Remove `"less"` property from `package.json`.
+  - If depending on `bedrock-fontawesome`, can remove direct fontawesome
+    dependency and rules in the `"manifest"` section.
+  - Update `"browser"` property in `package.json` so it is
+    `"./components/index.js"` rather than just `"index.js"`.
+
 ### Changed
 - Use "watch" support by default for development.
   - Replaces SystemJS usage.
