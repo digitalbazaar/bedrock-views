@@ -13,6 +13,10 @@
     - `"bedrock-webpack": "^3.0.0"`
   - Remove `compile-less` scripts from `package.json` or elsewhere. No longer
     used.
+  - Remove `bedrock.browserDependencies` from `package.json`. No longer used.
+  - If `fontawesome` rules are in `bedrock.manifest` in `package.json`, add a
+    dependency on `bedrock-fontawesome`.
+  - Remove `bedrock.manifest` from `package.json`. No longer used.
   - (optional) Add `webpackChunkName` notation to dynamic imports for
     debugging.
   - If webpack has trouble with `crypto`, check if its usage can be easily
@@ -27,8 +31,6 @@
     `bedrock-fontawesome` package will load common files for that package. May
     need to update to `@import (css) url('...');` syntax.
   - Remove `"less"` property from `package.json`.
-  - If depending on `bedrock-fontawesome`, can remove direct fontawesome
-    dependency and rules in the `"manifest"` section.
   - Update `"browser"` property in `package.json` so it is
     `"./components/index.js"` rather than just `"index.js"`.
 
@@ -64,6 +66,8 @@
 - **BREAKING**: AngularJS support.
 - **BREAKING**: SystemJS support.
 - **BREAKING**: `compile-less` command. Handled by webpack.
+- Support for `bedrock.browserDependencies` in `package.json`.
+- Support for `bedrock.manifest` in `package.json`.
 
 ## 6.5.1 - 2019-10-03
 
