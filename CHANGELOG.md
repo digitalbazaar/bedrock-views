@@ -33,6 +33,9 @@
   - Remove `"less"` property from `package.json`.
   - Update `"browser"` property in `package.json` so it is
     `"./components/index.js"` rather than just `"index.js"`.
+  - Depending on other packages used, you *may* need to add top-level
+    dependencies on `core-js` and `regenerator-runtime` that match and track
+    those used in `bedrock-webpack`.
 
 ### Changed
 - Use "watch" support by default for development.
