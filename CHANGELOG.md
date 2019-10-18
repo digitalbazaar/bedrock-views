@@ -69,6 +69,8 @@
 - **BREAKING**: AngularJS support.
 - **BREAKING**: SystemJS support.
 - **BREAKING**: `compile-less` command. Handled by webpack.
+- **BREAKING**: User agent checking and unsupported warning. Use frontend
+  feature detection, polyfills, and warnings as needed.
 - Support for `bedrock.browserDependencies` in `package.json`.
 - Support for `bedrock.manifest` in `package.json`.
 
