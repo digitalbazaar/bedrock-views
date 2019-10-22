@@ -6,7 +6,7 @@ is coupled with [webpack][], and [bedrock-vue][], which provides
 client-side resources.
 
 **bedrock-views** has the following properties/features:
-* Server-rendered views via the [Swig][] templating engine
+* Server-rendered views via a [consolidate.js][] templating engine
 * Client-side [Vue][] application via [bedrock-vue][]
 * Client-side modules and JavaScript optimization using [bedrock-webpack][]
 * HTML and CSS framework via [bootstrap][] v3
@@ -82,8 +82,8 @@ TODO: description of 'bedrock-views.optimize.run' event
 [bedrock-webpack]: https://github.com/digitalbazaar/bedrock-webpack
 [bootstrap]: http://getbootstrap.com/
 [clean-css]: https://github.com/jakubpawlowicz/clean-css
+[consolidate.js]: https://github.com/tj/consolidate.js
 [less]: https://github.com/less/less.js/
 [webpack]: https://webpack.js.org/
 [Less]: http://lesscss.org/
-[Swig]: http://paularmstrong.github.io/swig/
 [Vue]: https://vuejs.org/
