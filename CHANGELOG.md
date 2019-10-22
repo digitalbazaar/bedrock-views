@@ -24,7 +24,7 @@
     aliases `crypto` to a file that just throws an error. Some libraries use a
     try/catch on `require('crypto')` to choose Node.js or browser paths. Try to
     move away from this if possible.
-  - In a top level file exists, like `components/app.js`, add as needed:
+  - If a top level file exists, like `components/app.js`, add as needed:
     - `import './app.less';` (or `.css` or other supported formats)
     - `import 'bedrock-fontawesome';`
   - If using a LESS file, may need to remove var usage. The
