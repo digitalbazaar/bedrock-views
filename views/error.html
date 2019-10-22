@@ -1,21 +1,22 @@
-{% extends 'layout.html' %}
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Error</title>
+    <link rel="shortcut icon" href="/favicon.ico"
+      media="none" onload="if(media!='all')media='all'">
+  </head>
 
-{% set pageTitle = "Error" %}
+  <body class="br-body">
+    <h2>Sorry!</h2>
 
-{% block content %}
-
-<h2>Sorry!</h2>
-
-<div>
-  <p>Our website is experiencing technical difficulties. We apologize for
-  any inconvenience this has caused you.</p>
-  <p>Please try again later. If the problem continues, please contact
-  <a href="mailto:support@{{supportDomain}}">Customer Support</a> with the
-  details of what went wrong.</p>
-	
-  {% if debug %}
-  <pre><code>Exception: {{exception|json(2)|replace('\\n', '<br/>', 'g')}}</code></pre>
-  {% endif %}
-</div>
-
-{% endblock %}
+    <div>
+      <p>Our website is experiencing technical difficulties. We apologize for
+      any inconvenience this has caused you.</p>
+      <p>Please try again later. If the problem continues, please contact
+      customer support with the details of what went wrong.</p>
+    </div>
+  </body>
+</html>

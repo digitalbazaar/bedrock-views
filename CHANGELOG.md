@@ -36,6 +36,11 @@
   - Depending on other packages used, you *may* need to add top-level
     dependencies on `core-js` and `regenerator-runtime` that match and track
     those used in `bedrock-webpack`.
+  - Remove `bedrock.views.vars` config, `bedrock.views.brand` config, and use
+    of `window.data`. Move needed data to frontend config as needed.
+  - Change `views.system` config usage to `views.bundle`.
+  - Add styled overrides for `views/error-{403,503}.html` and
+    `views/error.html` as needed. Use lodash syntax rather than swig.
 
 ### Changed
 - Use "watch" support by default for development.
@@ -58,6 +63,9 @@
   needed.
 - Use relative path to load root file to avoid issues when package name is not
   the same as the directory name.
+- **BREAKING**: Templates in `views/*.html` are now just simple placeholders.
+  Override as needed.
+- **BREAKING**: Switch to lodash templates from swig.
 
 ### Added
 - eslint support.
@@ -71,8 +79,20 @@
 - **BREAKING**: `compile-less` command. Handled by webpack.
 - **BREAKING**: User agent checking and unsupported warning. Use frontend
   feature detection, polyfills, and warnings as needed.
+- **BREAKING**: `views.system` config (use `views.bundle`).
 - Support for `bedrock.browserDependencies` in `package.json`.
 - Support for `bedrock.manifest` in `package.json`.
+- `views/error-404.html' was removed due to not being used. Implement with
+  frontend code.
+- **BREAKING**: Various configuration removed. Simplifies template system and
+  encourages frontend config: . Simplifies templates and encourage configuring
+  via the frontend.
+  - `bedrock.views.vars` config.
+  - `bedrock.views.brand` config.
+  - `bedrock.brand` config.
+  - `window.data` frontend var.
+  - `getDefaultViewVars` function.
+  - `bedrock-views.vars.get` event
 
 ## 6.5.1 - 2019-10-03
 

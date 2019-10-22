@@ -1,28 +1,19 @@
-{% extends 'layout.html' %}
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Service Unavailable</title>
+    <link rel="shortcut icon" href="/favicon.ico"
+      media="none" onload="if(media!='all')media='all'">
+  </head>
 
-{% set pageTitle = "Service Unavailable" %}
-{% set pageLayout = "error" %}
+  <body>
+    <h2>Service Unavailable</h2>
 
-{% block content %}
-
-<h2>Service Unavailable</h2>
-
-<div>
-  <p>Sorry, this service is temporarily unavailable.</p>
-  <ul class="inline">
-    {% if contact.twitter %}
-    <li><i class="fa fa-twitter"></i> <a href="{{contact.twitter.url}}">{{contact.twitter.label}}</a></li>
-    {% endif %}
-    {% if contact.googlePlus %}
-    <li><i class="fa fa-google-plus"></i> <a href="{{contact.googlePlus.url}}">{{contact.googlePlus.label}}</a></li>
-    {% endif %}
-    {% if contact.blog %}
-    <li><i class="fa fa-comment"></i> <a href="{{contact.blog.url}}">{{contact.blog.label}}</a></li>
-    {% endif %}
-    {% if contact.email %}
-    <li><i class="fa fa-envelope"></i> <a href="{{contact.email.url}}">Email {{contact.email.label}}</a></li>
-    {% endif %}
-  </ul>
-</div>
-
-{% endblock %}
+    <div>
+      <p>Sorry, this service is temporarily unavailable.</p>
+    </div>
+  </body>
+</html>
