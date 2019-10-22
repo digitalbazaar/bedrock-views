@@ -40,7 +40,8 @@
     of `window.data`. Move needed data to frontend config as needed.
   - Change `views.system` config usage to `views.bundle`.
   - Add styled overrides for `views/error-{403,503}.html` and
-    `views/error.html` as needed. Use lodash syntax rather than swig.
+    `views/error.html` as needed. Use lodash syntax rather than swig. Or set
+    `views.engine` to another `consolidate.js` engine.
 
 ### Changed
 - Use "watch" support by default for development.
@@ -65,7 +66,7 @@
   the same as the directory name.
 - **BREAKING**: Templates in `views/*.html` are now just simple placeholders.
   Override as needed.
-- **BREAKING**: Switch to lodash templates from swig.
+- **BREAKING**: Switch from swig to lodash templates by default.
 
 ### Added
 - eslint support.
