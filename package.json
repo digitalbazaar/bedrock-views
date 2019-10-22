@@ -24,9 +24,10 @@
   },
   "homepage": "https://github.com/digitalbazaar/bedrock-views",
   "dependencies": {
+    "consolidate": "^0.15.1",
     "csurf": "^1.9.0",
-    "make-dir": "^3.0.0",
-    "swig": "^1.4.2"
+    "lodash": "^4.17.15",
+    "make-dir": "^3.0.0"
   },
   "peerDependencies": {
     "bedrock": "^1.12.1",
