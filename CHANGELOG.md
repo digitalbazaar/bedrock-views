@@ -22,9 +22,9 @@
   - If webpack has trouble with `crypto`, check if its usage can be easily
     avoided. If not, one technique is to add `bedrock-webpack` config that
     aliases `crypto` to a file that just throws an error. Some libraries use a
-    try/catch on `crypto` to choose Node.js or browser paths. Try to move away
-    from this if possible.
-  - In a top level file, like `components/app.js` add as needed:
+    try/catch on `require('crypto')` to choose Node.js or browser paths. Try to
+    move away from this if possible.
+  - In a top level file exists, like `components/app.js`, add as needed:
     - `import './app.less';` (or `.css` or other supported formats)
     - `import 'bedrock-fontawesome';`
   - If using a LESS file, may need to remove var usage. The
@@ -35,13 +35,18 @@
     `"./components/index.js"` rather than just `"index.js"`.
   - Depending on other packages used, you *may* need to add top-level
     dependencies on `core-js` and `regenerator-runtime` that match and track
-    those used in `bedrock-webpack`.
-  - Remove `bedrock.views.vars` config, `bedrock.views.brand` config, and use
-    of `window.data`. Move needed data to frontend config as needed.
+    those used in `bedrock-webpack`. This is due to how `npm` may lay out
+    directories.
+  - Remove `bedrock.views.vars` config, `bedrock.views.brand` config, and any
+    uses of `window.data`. Move needed data to frontend config as needed.
   - Change `views.system` config usage to `views.bundle`.
   - Add styled overrides for `views/error-{403,503}.html` and
     `views/error.html` as needed. Use lodash syntax rather than swig. Or set
     `views.engine` to another `consolidate.js` engine.
+  - Change calls to `optimize` command to `bundle`.
+  - Change production config `minify` option to
+    `bedrock.config.views.bundle.mode = 'production'` or use `--bundle-mode
+    production` CLI option.
 
 ### Changed
 - Use "watch" support by default for development.
@@ -49,15 +54,12 @@
   - Uses webpack "development" mode for built files.
 - **BREAKING**: Various config properties are changed or renamed.
   - Add `views.bundle`.
-  - Add `views.modules.baseURL`.
-  - Remove `views.system`. (aliased to `views.bundle` for backwards
-    compatibility).
   - Add `views.bundle.paths.input.root` (old importAll).
   - Add `views.bundle.paths.output.local`.
   - Add `views.bundle.paths.output.public`.
   - Add `views.bundle.paths.output.main`.
   - Add `views.bundle.paths.output.optimize.main`.
-- Default generated output files to `js`/`css` dirs.
+- Default generated output files to `js`/`css` dirs for dev/prod modes.
 - Default generated output routes to '/static/{css,js}'.
 - **BREAKING**: Modules must use appropriate `package.json` fields to specify
   their main file for Webpack. In particular, use the `browser` field as
@@ -67,6 +69,9 @@
 - **BREAKING**: Templates in `views/*.html` are now just simple placeholders.
   Override as needed.
 - **BREAKING**: Switch from swig to lodash templates by default.
+- **BREAKING**: `optimize` command changed to `bundle`. New `--bundle-mode`
+  option added for `development` and `production` modes. Default for this mode
+  is `bedrock.config.views.bundle.mode` config value.
 
 ### Added
 - eslint support.
@@ -83,7 +88,7 @@
 - **BREAKING**: `views.system` config (use `views.bundle`).
 - Support for `bedrock.browserDependencies` in `package.json`.
 - Support for `bedrock.manifest` in `package.json`.
-- `views/error-404.html' was removed due to not being used. Implement with
+- `views/error-404.html` was removed due to not being used. Implement with
   frontend code.
 - **BREAKING**: Various configuration removed. Simplifies template system and
   encourages frontend config: . Simplifies templates and encourage configuring
