@@ -49,6 +49,9 @@
     production` CLI option.
   - Remove `bedrock.config.views.routes` usage. Either handle on the frontend
     or add custom express routes directly.
+  - Update `bedrock.config.views.main` if a custom main template is used.
+  - Update frontend to handle HTTP error codes via the initial HTML having a
+    possible meta http-equiv "status" element.
 
 ### Changed
 - Use "watch" support by default for development.
@@ -80,6 +83,7 @@
 - Initial "watch" support.
   - Used to rebuild optimized output as source files change.
   - Explicitly enabled with: `--watch true`.
+- `bedrock.config.views.main` config for main html template name.
 
 ### Removed
 - **BREAKING**: AngularJS support.
@@ -91,8 +95,9 @@
 - **BREAKING**: `views.routes` config. Use frontend code or custom routes.
 - Support for `bedrock.browserDependencies` in `package.json`.
 - Support for `bedrock.manifest` in `package.json`.
-- `views/error-404.html` was removed due to not being used. Implement with
-  frontend code.
+- **BREAKING**: `views/error*.html` removed in favor of handling with frontend
+  code from a common main HTML file. A special meta http-equiv "status" field
+  is used to indicate any initial HTTP status codes.
 - **BREAKING**: Various configuration removed. Simplifies template system and
   encourages frontend config: . Simplifies templates and encourage configuring
   via the frontend.
