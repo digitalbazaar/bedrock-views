@@ -47,6 +47,8 @@
   - Change production config `minify` option to
     `bedrock.config.views.bundle.mode = 'production'` or use `--bundle-mode
     production` CLI option.
+  - Remove `bedrock.config.views.routes` usage. Either handle on the frontend
+    or add custom express routes directly.
 
 ### Changed
 - Use "watch" support by default for development.
@@ -86,6 +88,7 @@
 - **BREAKING**: User agent checking and unsupported warning. Use frontend
   feature detection, polyfills, and warnings as needed.
 - **BREAKING**: `views.system` config (use `views.bundle`).
+- **BREAKING**: `views.routes` config. Use frontend code or custom routes.
 - Support for `bedrock.browserDependencies` in `package.json`.
 - Support for `bedrock.manifest` in `package.json`.
 - `views/error-404.html` was removed due to not being used. Implement with
