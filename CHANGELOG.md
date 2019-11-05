@@ -57,6 +57,8 @@
 - Use "watch" support by default for development.
   - Replaces SystemJS usage.
   - Uses webpack "development" mode for built files.
+- **BREAKING**: Update Node.js requirement to v10.12.0. Use `fs.mkdir`
+  `recursive` option instead of `make-dir` package.
 - **BREAKING**: Various config properties are changed or renamed.
   - Add `views.bundle`.
   - Add `views.bundle.paths.input.root` (old importAll).
