@@ -52,6 +52,8 @@
   - Update `bedrock.config.views.main` if a custom main template is used.
   - Update frontend to handle HTTP error codes via the initial HTML having a
     possible meta http-equiv "status" element.
+  - Find another method to handle the `serviceUnavailable`/503 feature, if it
+    was used.
 
 ### Changed
 - Use "watch" support by default for development.
@@ -109,6 +111,8 @@
   - `window.data` frontend var.
   - `getDefaultViewVars` function.
   - `bedrock-views.vars.get` event
+- **BREAKING**: Removed `serviceUnavailable` config and feature. Add your own
+  custom route and page if you need this.
 
 ## 6.5.1 - 2019-10-03
 
