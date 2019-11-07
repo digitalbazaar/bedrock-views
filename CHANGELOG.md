@@ -11,6 +11,7 @@
     - `"bedrock-quasar": "^4.0.0"`
     - `"bedrock-vue": "^1.3.0"`
     - `"bedrock-webpack": "^3.0.0"`
+    - ... others  as needed ...
   - Remove `compile-less` scripts from `package.json` or elsewhere. No longer
     used.
   - Remove `bedrock.browserDependencies` from `package.json`. No longer used.
@@ -40,20 +41,22 @@
   - Remove `bedrock.views.vars` config, `bedrock.views.brand` config, and any
     uses of `window.data`. Move needed data to frontend config as needed.
   - Change `views.system` config usage to `views.bundle`.
-  - Add styled overrides for `views/error-{403,503}.html` and
-    `views/error.html` as needed. Use lodash syntax rather than swig. Or set
-    `views.engine` to another `consolidate.js` engine.
+  - Views render template changed from swig to lodash by default. Another
+    default engine can be selected with the `views.engine` config value.
   - Change calls to `optimize` command to `bundle`.
   - Change production config `minify` option to
     `bedrock.config.views.bundle.mode = 'production'` or use `--bundle-mode
     production` CLI option.
   - Remove `bedrock.config.views.routes` usage. Either handle on the frontend
     or add custom express routes directly.
-  - Update `bedrock.config.views.main` if a custom main template is used.
-  - Update frontend to handle HTTP error codes via the initial HTML having a
-    possible meta http-equiv "status" element.
-  - Find another method to handle the `serviceUnavailable`/503 feature, if it
-    was used.
+  - Update `bedrock.config.views.main`. It's now an object with `file` or
+    `render` options (see config).
+  - Add custom express error handler for server errors. Note that this is
+    mainly for internal server errors and usually the default HTML and JS will
+    allow the frontend to handle API errors. A custom handler would likely use
+    `res.sendFile` or `res.render` to return custom HTML.
+  - The `serviceUnavailable`/503 feature was removed. Apps must implement this
+    themselves or use an appropriate package to do so.
 
 ### Changed
 - Use "watch" support by default for development.
@@ -87,7 +90,9 @@
 - Initial "watch" support.
   - Used to rebuild optimized output as source files change.
   - Explicitly enabled with: `--watch true`.
-- `bedrock.config.views.main` config for main html template name.
+- `bedrock.config.views.main` config:
+  - `file` and `options` for `res.sendFile` use.
+  - `render` and `vars` for `res.render` use.
 
 ### Removed
 - **BREAKING**: AngularJS support.
@@ -113,6 +118,13 @@
   - `bedrock-views.vars.get` event
 - **BREAKING**: Removed `serviceUnavailable` config and feature. Add your own
   custom route and page if you need this.
+- **BREAKING**: Server error custom HTML. This is difficult to do in a generic
+  way. Express default will be used by default. Apps can add an express error
+  handler to provide fallback HTML output if needed.
+  - **NOTE**: The default express handler outputs an HTML error stack trace by
+    default. Apps should be run with `NODE_ENV="production"` to avoid this.
+    Also note that in production mode the error is instead output via
+    `console.error`. A custom handler can be used to change this behavior.
 
 ## 6.5.1 - 2019-10-03
 
