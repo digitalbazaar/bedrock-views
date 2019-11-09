@@ -1,5 +1,7 @@
 # bedrock-views ChangeLog
 
+## 7.0.1 - 2019-11-08
+
 ### Changed
 - Update max bedrock dependency.
 
