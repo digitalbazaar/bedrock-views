@@ -1,6 +1,6 @@
 # bedrock-views ChangeLog
 
-## 7.0.0 - 2019-xx-xx
+## 7.0.0 - 2019-11-08
 
 ### Notes
 - **BREAKING**: This is a major release. **Upgrading is required.** Read the
