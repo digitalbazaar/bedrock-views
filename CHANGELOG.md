@@ -1,5 +1,8 @@
 # bedrock-views ChangeLog
 
+### Fixed
+- Don't pass in null paths to `require.resolve()`. Fix for Node.js v12.
+
 ## 7.0.1 - 2019-11-08
 
 ### Changed
