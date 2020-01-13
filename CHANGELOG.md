@@ -1,5 +1,10 @@
 # bedrock-views ChangeLog
 
+## 7.0.3 - 2020-01-xx
+
+### Fixed
+- Set csrf cookie defaults to secure settings.
+
 ## 7.0.2 - 2019-11-14
 
 ### Fixed
