@@ -5,6 +5,9 @@
 ### Fixed
 - Set csrf cookie defaults to secure settings.
 
+### Removed
+- Support for AngularJS csrf cookie name (use `_csrf`).
+
 ## 7.0.2 - 2019-11-14
 
 ### Fixed
