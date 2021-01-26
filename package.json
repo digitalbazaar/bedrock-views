@@ -5,7 +5,7 @@
   "main": "./lib/index",
   "scripts": {
     "test": "node test.js",
-    "lint": "eslint 'lib/*.js' 'lib/bundle/*.js'"
+    "lint": "eslint ."
   },
   "repository": {
     "type": "git",
@@ -38,7 +38,7 @@
     "lib": "./lib"
   },
   "devDependencies": {
-    "eslint": "^6.6.0",
+    "eslint": "^7.18.0",
     "eslint-config-digitalbazaar": "^2.0.1"
   },
   "engines": {
