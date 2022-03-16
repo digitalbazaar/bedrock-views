@@ -1,6 +1,6 @@
 # bedrock-views ChangeLog
 
-## 8.0.0 - 2022-03-xx
+## 8.0.0 - 2022-03-16
 
 ### Changed
 - Now serves the generated html from `bedrock-webpack`.
