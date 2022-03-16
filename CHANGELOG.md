@@ -1,5 +1,19 @@
 # bedrock-views ChangeLog
 
+## 8.0.0 - 2022-03-xx
+
+### Changed
+- Now serves the generated html from `bedrock-webpack`.
+
+### Removed
+- **BREAKING**: Remove `config.views.main.file.path`. Location of main html file
+  is handled by webpack.
+- **BREAKING**: Remove `config.views.main.render`. All html processing is
+  handled by webpack.
+- **BREAKING**: Remove `config.views.error`. This property was unused.
+- **BREAKING**: Remove `config.views.bundle.paths.output.main`. The bundle path
+  is handled by webpack.
+
 ## 7.1.0 - 2020-01-13
 
 ### Fixed
