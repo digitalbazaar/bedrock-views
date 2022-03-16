@@ -4,6 +4,11 @@
 
 ### Changed
 - Now serves the generated html from `bedrock-webpack`.
+- **BREAKING**: Update peer deps:
+  - `bedrock@4.4.3`
+  - `bedrock-express@6.3`
+  - `bedrock-server@3.1`
+  - `bedrock-web@1.3.1`.
 
 ### Removed
 - **BREAKING**: Remove `config.views.main.file.path`. Location of main html file
