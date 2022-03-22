@@ -1,5 +1,10 @@
 # bedrock-views ChangeLog
 
+## 8.0.1 - 2022-03-xx
+
+### Fixed
+- Use `bedrock.main`, if available, to determine root module filename.
+
 ## 8.0.0 - 2022-03-16
 
 ### Changed
