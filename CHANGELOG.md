@@ -1,6 +1,6 @@
 # bedrock-views ChangeLog
 
-## 8.1.0 - 2022-03-xx
+## 8.1.0 - 2022-03-30
 
 ### Changed
 - Update peer deps:
