@@ -1,5 +1,17 @@
 # bedrock-views ChangeLog
 
+## 8.1.0 - 2022-03-xx
+
+### Changed
+- Update peer deps:
+  - `bedrock@4.5`
+  - `bedrock-express@6.4.1`.
+- Update internals to use esm style and use `esm.js` to
+  transpile to CommonJS.
+
+### Removed
+- Remove unused peer dep `bedrock-server`.
+
 ## 8.0.1 - 2022-03-22
 
 ### Fixed
