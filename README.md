@@ -15,26 +15,26 @@ client-side resources.
 
 ## Requirements
 
-- npm v3+
+- npm v6+
 
 ## Quick Examples
 
 ```
-npm install bedrock-views
+npm install @bedrock/views
 ```
 
 Start an express server with an [Vue][] frontend:
 
 ```
-npm install bedrock-vue
+npm install @bedrock/vue
 ```
 
 ```js
-var bedrock = require('bedrock');
+import * as bedrock from '@bedrock/core';
 
-require('bedrock-express');
-require('bedrock-server');
-require('bedrock-views');
+import '@bedrock/express';
+import '@bedrock/server';
+import '@bedrock/views';
 
 bedrock.start();
 ```
@@ -42,12 +42,11 @@ bedrock.start();
 <!--
 TODO: command line usage of compile-less
 TODO: command line usage of optimize
-TODO: use 'bedrock-views.vars.get' event
 -->
 
 ## Setup
 
-1. npm install bedrock-vue
+1. npm install @bedrock/vue
 
 ## Configuration
 
@@ -62,12 +61,6 @@ TODO: description of how to override vue templates
 More documentation about their usage can be found in [config.js](./lib/config.js).
 
 ## How It Works
-
-<!--
-TODO: general
-TODO: description of `bedrock-views.vars.get` event
-TODO: description of `bedrock-views.add` event (possibly rename as well)
--->
 
 <!--
 TODO: description of 'bedrock-views.cli.compile-less.configure' event
