@@ -1,6 +1,6 @@
 # bedrock-views ChangeLog
 
-## 9.0.1 - 2022-04-xx
+## 9.0.1 - 2022-04-09
 
 ### Fixed
 - Fix `package.json` resolution code.
