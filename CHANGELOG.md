@@ -1,5 +1,10 @@
 # bedrock-views ChangeLog
 
+## 10.0.2 - 2022-04-xx
+
+### Fixed
+- Fix command line option handling.
+
 ## 10.0.1 - 2022-04-28
 
 ### Fixed
