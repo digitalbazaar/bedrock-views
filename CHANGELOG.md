@@ -1,5 +1,10 @@
 # bedrock-views ChangeLog
 
+## 10.0.1 - 2022-04-xx
+
+### Fixed
+- Fix clone of package cache.
+
 ## 10.0.0 - 2022-04-28
 
 ### Changed
