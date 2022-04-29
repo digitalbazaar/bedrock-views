@@ -1,5 +1,10 @@
 # bedrock-views ChangeLog
 
+## 10.0.3 - 2022-04-xx
+
+### Fixed
+- Use `bedrock.runOnce`.
+
 ## 10.0.2 - 2022-04-29
 
 ### Fixed
