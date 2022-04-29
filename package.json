@@ -29,8 +29,8 @@
     "lodash": "^4.17.15"
   },
   "peerDependencies": {
-    "@bedrock/core": "^5.0.0",
-    "@bedrock/express": "^7.0.0",
+    "@bedrock/core": "^6.0.0",
+    "@bedrock/express": "^8.0.0",
     "@bedrock/web": "^2.0.0"
   },
   "directories": {

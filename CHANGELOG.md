@@ -1,5 +1,12 @@
 # bedrock-views ChangeLog
 
+## 10.0.0 - 2022-04-xx
+
+### Changed
+- **BREAKING**: Update peer deps:
+  - `@bedrock/core@6`
+  - `@bedrock/express@8`.
+
 ## 9.0.2 - 2022-04-09
 
 ### Fixed
