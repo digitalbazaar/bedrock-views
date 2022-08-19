@@ -32,7 +32,7 @@
   "peerDependencies": {
     "@bedrock/core": "^6.0.0",
     "@bedrock/express": "^8.0.0",
-    "@bedrock/web": "^2.0.0"
+    "@bedrock/web": "^3.0.0"
   },
   "directories": {
     "lib": "./lib"
