@@ -1,5 +1,10 @@
 # bedrock-views ChangeLog
 
+## 11.0.0 - 2022-08-xx
+
+### Changed
+- **BREAKING**: Require peer dependency `@bedrock/web@3`.
+
 ## 10.0.3 - 2022-04-29
 
 ### Fixed
