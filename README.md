@@ -60,13 +60,23 @@ TODO: description of how to override vue templates
 
 More documentation about their usage can be found in [config.js](./lib/config.js).
 
-## How It Works
-
 <!--
 TODO: description of 'bedrock-views.cli.compile-less.configure' event
 TODO: description of 'bedrock-views.cli.optimize.configure' event
 TODO: description of 'bedrock-views.optimize.run' event
 -->
+
+## License
+
+[Apache License, Version 2.0](LICENSE) Copyright 2011-2024 Digital Bazaar, Inc.
+
+Additional Bedrock libraries are available for non-commercial use such as
+self-study, research, personal projects, or for evaluation purposes. See the
+[Bedrock Non-Commercial License v1.0](https://github.com/digitalbazaar/bedrock/LICENSES/LicenseRef-Bedrock-NC-1.0.txt)
+for details.
+
+Commercial licensing and support are available by contacting
+[Digital Bazaar](https://digitalbazaar.com/) <support@digitalbazaar.com>.
 
 [bedrock]: https://github.com/digitalbazaar/bedrock
 [bedrock-express]: https://github.com/digitalbazaar/bedrock-express
