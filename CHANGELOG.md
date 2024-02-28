@@ -1,5 +1,10 @@
 # bedrock-views ChangeLog
 
+## 11.1.0 - 2024-mm-dd
+
+### Changed
+- Relicense under the Apache-2.0 license.
+
 ## 11.0.0 - 2022-08-19
 
 ### Changed
