@@ -1,5 +1,20 @@
 # bedrock-views ChangeLog
 
+## 12.0.0 - 2024-10-dd
+
+### Removed
+- **BREAKING**: Remove obselete, insecure, and rarely used `csurf` dependency.
+  This package is only used in applications that require POSTs to endpoints
+  that use cookie-based authentication (e.g., sessions) and that accept
+  `application/x-www-form-urlencoded` payloads, as browsers can become
+  "confused deputies" and will send a user's cookies along with a request
+  that is initiated from a different website. Applications that must support
+  this anti-pattern are responsible for providing their own CSRF protections.
+  This includes adding an express handler in the application that will use
+  the application author's CSRF-protection middleware package of choice that
+  will, e.g., inject a CSRF cookie with a value that must match one that is
+  included in the POST data.
+
 ## 11.1.0 - 2024-02-28
 
 ### Changed
