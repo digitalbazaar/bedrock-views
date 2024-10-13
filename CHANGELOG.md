@@ -14,6 +14,13 @@
   the application author's CSRF-protection middleware package of choice that
   will, e.g., inject a CSRF cookie with a value that must match one that is
   included in the POST data.
+- **BREAKING**: Remove `consolidate` dependency for generating server-side
+  templates and the related configuration variables `config.views.engine` and
+  `config.views.paths`. Any processing or bundling of frontend application
+  code (whether server-side or client-side) is to be performed via another
+  package such as `@bedrock/webpack` and `config.views.bundle` provides
+  configuration hooks for this. Only `config.views.main` remains as a point
+  of configuration for the main view.
 
 ## 11.1.0 - 2024-02-28
 
