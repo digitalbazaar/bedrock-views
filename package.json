@@ -25,9 +25,7 @@
   },
   "homepage": "https://github.com/digitalbazaar/bedrock-views",
   "dependencies": {
-    "consolidate": "^0.16.0",
-    "klona": "^2.0.5",
-    "lodash": "^4.17.21"
+    "klona": "^2.0.5"
   },
   "peerDependencies": {
     "@bedrock/core": "^6.0.0",
