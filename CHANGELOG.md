@@ -1,6 +1,6 @@
 # bedrock-views ChangeLog
 
-## 12.0.0 - 2024-10-dd
+## 12.0.0 - 2024-10-14
 
 ### Removed
 - **BREAKING**: Remove obselete, insecure, and rarely used `csurf` dependency.
