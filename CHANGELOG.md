@@ -21,6 +21,9 @@
   package such as `@bedrock/webpack` and `config.views.bundle` provides
   configuration hooks for this. Only `config.views.main` remains as a point
   of configuration for the main view.
+- **BREAKING**: Remove obsolete feature to specify a `bedrock` section in
+  package.json that causes overrides in how the package is imported. This
+  has been replaced by specifying webpack configuration rules as needed.
 
 ## 11.1.0 - 2024-02-28
 
