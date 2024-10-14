@@ -24,9 +24,7 @@
     "url": "https://github.com/digitalbazaar/bedrock-views/issues"
   },
   "homepage": "https://github.com/digitalbazaar/bedrock-views",
-  "dependencies": {
-    "klona": "^2.0.5"
-  },
+  "dependencies": {},
   "peerDependencies": {
     "@bedrock/core": "^6.0.0",
     "@bedrock/express": "^8.0.0",
